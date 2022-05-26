@@ -15,9 +15,20 @@ li {
     float: right;
 }
 
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+
 a {
     display: block;
     padding: 8px;
     background-color: burlywood;
     color: blue;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: gray;
 }
