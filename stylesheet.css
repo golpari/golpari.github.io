@@ -3,10 +3,16 @@ ul {
     margin: 0;
     padding: 0;
     background-color: beige;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 a {
