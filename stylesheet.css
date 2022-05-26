@@ -2,7 +2,16 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: beige;
 }
+
+li {
+    float: left;
+}
+
 a {
+    display: block;
+    padding: 8px;
+    background-color: burlywood;
     color: blue;
 }
