@@ -31,4 +31,8 @@ footer {
     text-align: center;
     width: 100%;
     background-color: gray;
+    margin: 0.5;
+    position: fixed;
+    /*padding: 10;*/
+    height: 20;
 }
