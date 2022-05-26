@@ -33,6 +33,5 @@ footer {
     background-color: gray;
     margin: 0.5;
     position: fixed;
-    /*padding: 10;*/
-    height: 20;
+    padding: 10;
 }
