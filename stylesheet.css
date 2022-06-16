@@ -1,3 +1,13 @@
+#title {
+    text-align: center;
+    font-size: 60;
+    color: brown;
+}
+
+body {
+    margin-bottom: 50;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,14 +44,4 @@ footer {
     margin: 0.5;
     position: fixed;
     padding: 10;
-}
-
-body {
-    margin: 50;
-}
-
-#title {
-    text-align: center;
-    font-size: 60;
-    color: brown;
 }
