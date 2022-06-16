@@ -35,3 +35,13 @@ footer {
     position: fixed;
     padding: 10;
 }
+
+body {
+    margin: 50;
+}
+
+#title {
+    text-align: center;
+    font-size: 60;
+    color: brown;
+}
