@@ -25,12 +25,13 @@ li a:hover {
 h1 {
     background-color: #005F73;  
     width: 100%;
-    height: 800px; 
     position: absolute;
 }
 
 #title {
     font-family: 'Fascinate Inline', cursive;
+    padding-top: 50%;
+    padding-bottom: 50%;
     text-align: center;
     font-size: 500;
     font-weight: bolder;
