@@ -21,7 +21,7 @@ li {
 li a:hover {
     background-color: #9B2226;
 }
-
+/*
 h1 {
     background-color: #005F73;  
     width: 100%;
@@ -33,7 +33,7 @@ h1 {
     padding-top: 50%;
     padding-bottom: 50%;
     text-align: center;
-    font-size: 500;
+    font-size: 800;
     font-weight: bolder;
     color: #EE9B00;
 }
@@ -48,4 +48,4 @@ footer {
     background-color: #CA6702;
     padding: 10;
     margin: 0.5;
-}
+}*/
