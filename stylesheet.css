@@ -15,12 +15,14 @@ li {
     float: right;
     margin-right: 10px;
     list-style-type: none;
+    display: inline;
 }
 
 /* Change the navbar text color to red on hover */
 li a:hover {
     background-color: #9B2226;
 }
+
 /*
 h1 {
     background-color: #005F73;  
