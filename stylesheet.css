@@ -19,15 +19,16 @@ li {
     padding-bottom: 5;
     padding-left: 10;
     padding-right: 10;
+    list-style-type: none;
 }
 
 /* Change the navbar text color to red on hover */
 li a:hover {
-    color: #9B2226;
+    background-color: #9B2226;
 }
 
 #title {
-    font-family: 'FasinateInline';
+    font-family: "Inconsolata";
     text-align: center;
     font-size: 200;
     font-weight: bolder;
