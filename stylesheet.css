@@ -1,22 +1,21 @@
 /* CSS Stylesheet */
 
 ul #navbar{
-    list-style-type: none;
-    padding: 0;
     background-color: #CA6702;
     position: sticky;
-    top: 0;
     width: 100%;
-    display: inline;
     position: -webkit-sticky; /* Safari */
 }
 
 li {
     width: 100%;
     float: right;
-    margin-right: 10px;
     list-style-type: none;
-    display: inline;
+}
+
+li a {
+    display: block;
+    padding: 8px;
 }
 
 /* Change the navbar text color to red on hover */
