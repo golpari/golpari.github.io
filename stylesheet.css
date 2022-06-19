@@ -45,15 +45,14 @@ h1 {
     position: absolute;
 }
 
+p {
+    position: absolute;
+}
+
 footer {
     text-align: center;
     width: 100%;
     background-color: #CA6702;
     padding: 10;
-    position: absolute;
     margin: 0.5;
-}
-
-p {
-    position: absolute;
 }
