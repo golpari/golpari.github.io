@@ -7,6 +7,7 @@ ul #navbar{
     position: sticky;
     top: 0;
     width: 100%;
+    display: inline;
     position: -webkit-sticky; /* Safari */
 }
 
