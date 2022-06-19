@@ -50,6 +50,10 @@ footer {
     width: 100%;
     background-color: #CA6702;
     padding: 10;
-    position: fixed;
+    position: absolute;
     margin: 0.5;
+}
+
+p {
+    position: absolute;
 }
