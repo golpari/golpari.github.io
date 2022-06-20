@@ -1,12 +1,11 @@
 /* CSS Stylesheet */
 
-
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
 body {
     font-family: monospace;
     text-transform: uppercase;
-    background: #005F73;
+    background: #999;
 }
 
 .container {
@@ -21,11 +20,9 @@ ul {
     display: flex;
     flex-direction: row;
     font-size: 22px;
-    background-color: #CA6702;
 }
 
 li {
-    float: right;
     position: relative;
     list-style-type: none;
     margin-right: 50px;
@@ -171,6 +168,7 @@ li:hover:after {
         font-size: 15px;
     }
 }
+
 
 
 /*ul {
