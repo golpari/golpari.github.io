@@ -2,10 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
-body {
-    font-family: monospace;
-    text-transform: uppercase;
-}
 
 .container {
     height: 300px;
