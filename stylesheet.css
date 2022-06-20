@@ -20,10 +20,6 @@ ul {
     flex-direction: row;
     font-size: 22px;
     background-color: #CA6702;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 li {
