@@ -28,7 +28,7 @@ ul {
 
 li {
     float: right;
-    /*position: relative;*/
+    position: relative;
     list-style-type: none;
     margin-right: 50px;
     cursor: pointer;
