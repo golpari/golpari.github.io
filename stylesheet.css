@@ -9,11 +9,11 @@ body {
     background: #005F73;
 }
 
-/*.container {
+.container {
     height: 100px;
     width: 100%;
     display: flex;
-}*/
+}
 
 ul {
     display: flex;
