@@ -12,11 +12,9 @@ a {
     padding: 8px;
 }
 
-ul #navbar{
+#navbar{
     background-color: #CA6702;
-    position: sticky;
     width: 100%;
-    position: -webkit-sticky; /* Safari */
 }
 
 /* Change the navbar text color to red on hover */
