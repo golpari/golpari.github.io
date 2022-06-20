@@ -5,13 +5,14 @@
 body {
     font-family: monospace;
     text-transform: uppercase;
+    background-color: #CA6702;
 }
 
 .container {
     height: 100px;
     width: 100vw;
     display: flex;
-    background-color: #CA6702;
+    
     justify-content: center;
     align-items:flex-end;
 }
