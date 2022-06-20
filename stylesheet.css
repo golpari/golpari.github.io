@@ -3,7 +3,6 @@
 li {
     float: right;
     list-style-type: none;
-    display: inline;
 }
 
 a {
@@ -11,10 +10,6 @@ a {
     padding: 8px;
 }
 
-#navbar{
-    background-color: #CA6702;
-    width: 100%;
-}
 
 /* Change the navbar text color to red on hover */
 li a:hover {
