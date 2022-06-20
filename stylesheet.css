@@ -8,16 +8,16 @@ body {
 }
 
 .container {
-    height: 300px;
+    height: 100px;
     width: 100vw;
     display: flex;
+    background-color: #CA6702;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     font-size: 22px;
-    background-color: #CA6702;
 }
 
 li {
