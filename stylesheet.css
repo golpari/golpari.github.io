@@ -26,6 +26,7 @@ ul {
 
 li {
     float:right;
+    padding-top: 20px;
     position: relative;
     list-style-type: none;
     margin-right: 50px;
