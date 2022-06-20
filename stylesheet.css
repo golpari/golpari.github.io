@@ -1,22 +1,22 @@
 /* CSS Stylesheet */
 
-ul #navbar{
-    background-color: #CA6702;
-    position: sticky;
-    width: 100%;
-    position: -webkit-sticky; /* Safari */
-}
-
 li {
     width: 100%;
     float: right;
     list-style-type: none;
-    display: inline
+    display: inline;
 }
 
 a {
     display: block;
     padding: 8px;
+}
+
+ul #navbar{
+    background-color: #CA6702;
+    position: sticky;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
 }
 
 /* Change the navbar text color to red on hover */
