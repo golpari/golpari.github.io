@@ -9,21 +9,26 @@ body {
     background: #005F73;
 }
 
-.container {
+/*.container {
     height: 100px;
     width: 100%;
     display: flex;
-}
+}*/
 
 ul {
     display: flex;
     flex-direction: row;
     font-size: 22px;
+    background-color: #CA6702;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
     float: right;
-    position: relative;
+    /*position: relative;*/
     list-style-type: none;
     margin-right: 50px;
     cursor: pointer;
