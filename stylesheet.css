@@ -1,7 +1,6 @@
 /* CSS Stylesheet */
 
 li {
-    width: 100%;
     float: right;
     list-style-type: none;
     display: inline;
