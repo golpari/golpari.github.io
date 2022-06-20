@@ -12,6 +12,8 @@ body {
     width: 100vw;
     display: flex;
     background-color: #CA6702;
+    justify-content: center;
+    align-items:flex-end;
 }
 
 ul {
