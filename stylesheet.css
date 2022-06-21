@@ -15,6 +15,7 @@ body {
     width: 100vw;
     display: flex;
     margin-top: 25px;
+    margin-bottom: 10px;
     justify-content: end;/* connects to width alignment*/
     align-items:flex-end; /*connects to height alignment*/
 }
@@ -66,7 +67,7 @@ li:nth-child(1):after {
     clip-path: polygon(6% 10%, 100% 0, 64% 65%, 28% 65%);
     height: 85px;
     width: 75px;
-    bottom: -40px;
+    bottom: -18px;
     animation: stretch 2s ease infinite;
 }
 
