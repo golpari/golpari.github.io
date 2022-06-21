@@ -173,6 +173,33 @@ li:hover:after {
 }
 
 
+h1 {
+    background-color: #005F73;  
+    width: 100%;
+    position: absolute;
+}
+
+#title {
+    font-family: 'Fascinate Inline', cursive;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    text-align: center;
+    font-size: 800;
+    font-weight: bolder;
+    color: #EE9B00;
+}
+
+p {
+    color: #E9D8A6;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #CA6702;
+    padding: 10;
+    margin: 0.5;
+}
 
 /*ul {
     background-color: #CA6702;
@@ -200,30 +227,4 @@ li a:hover {
 }
 
 
-h1 {
-    background-color: #005F73;  
-    width: 100%;
-    position: absolute;
-}
-
-#title {
-    font-family: 'Fascinate Inline', cursive;
-    padding-top: 50%;
-    padding-bottom: 50%;
-    text-align: center;
-    font-size: 800;
-    font-weight: bolder;
-    color: #EE9B00;
-}
-
-p {
-    color: #E9D8A6;
-}
-
-footer {
-    text-align: center;
-    width: 100%;
-    background-color: #CA6702;
-    padding: 10;
-    margin: 0.5;
-}*/
+*/
