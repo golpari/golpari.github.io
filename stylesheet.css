@@ -13,8 +13,8 @@ body {
     height: 50px; /*thickness of navbar*/
     width: 100vw;
     display: flex;
-    
-    /*justify-content: end; connects to width alignment*/
+    margin-top: 20px;
+    justify-content: end;/* connects to width alignment*/
     align-items:flex-end; /*connects to height alignment*/
 }
 
@@ -26,7 +26,6 @@ ul {
 
 li {
     float:right;
-    padding-top: 20px;
     position: relative;
     list-style-type: none;
     margin-right: 50px;
@@ -35,7 +34,7 @@ li {
 }
 
 li:last-child {
-    margin-right: 0px;
+    margin-right: 20px;
 }
 
 li:after {
