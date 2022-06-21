@@ -7,7 +7,8 @@ body {
     font-family: monospace;
     width: 100vw;
     text-transform: uppercase;
-    background-color: #CA6702; /*change this color to change navbar coloring*/
+    background-color: #CA6702;
+    /*change this color to change navbar coloring*/
 }
 
 .container {
@@ -16,8 +17,10 @@ body {
     display: flex;
     margin-top: 25px;
     margin-bottom: 10px;
-    justify-content: end;/* connects to width alignment*/
-    align-items:flex-end; /*connects to height alignment*/
+    justify-content: end;
+    /* connects to width alignment*/
+    align-items: flex-end;
+    /*connects to height alignment*/
 }
 
 ul {
@@ -27,7 +30,7 @@ ul {
 }
 
 li {
-    float:right;
+    float: right;
     position: relative;
     list-style-type: none;
     margin-right: 50px;
@@ -36,7 +39,7 @@ li {
 }
 
 li:last-child {
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 li:after {
@@ -67,7 +70,7 @@ li:nth-child(1):after {
     clip-path: polygon(6% 10%, 100% 0, 64% 65%, 28% 65%);
     height: 85px;
     width: 75px;
-    bottom: -18px;
+    bottom: -47px;
     animation: stretch 2s ease infinite;
 }
 
@@ -173,11 +176,12 @@ li:hover:after {
         font-size: 15px;
     }
 }
+
 /* END NAVBAR STYLING */
 
 /* START HOME STYLING */
 .main {
-    background-color: #005F73;  
+    background-color: #005F73;
     padding: 20px;
     width: 100vw;
     height: 100vh;
