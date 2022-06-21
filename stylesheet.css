@@ -13,7 +13,7 @@ body {
     height: 50px; /*thickness of navbar*/
     width: 100vw;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: end;/* connects to width alignment*/
     align-items:flex-end; /*connects to height alignment*/
 }
@@ -34,7 +34,7 @@ li {
 }
 
 li:last-child {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 li:after {
