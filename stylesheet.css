@@ -194,7 +194,7 @@ p {
 
 footer {
     text-align: center;
-    width: 100%;
+    width: 100vw;
     background-color: #CA6702;
     padding: 10;
     margin: 0.5;
