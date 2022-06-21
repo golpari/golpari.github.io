@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
-/*background coloring and holder for all content + navbar*/
+/* START NAVBAR STYLING */
 body {
     font-family: monospace;
     text-transform: uppercase;
@@ -13,7 +13,7 @@ body {
     /*height: 50px; thickness of navbar*/
     width: 100vw;
     display: flex;
-    margin-top: 40px;
+    margin-top: 25px;
     justify-content: end;/* connects to width alignment*/
     align-items:flex-end; /*connects to height alignment*/
 }
@@ -65,7 +65,7 @@ li:nth-child(1):after {
     clip-path: polygon(6% 10%, 100% 0, 64% 65%, 28% 65%);
     height: 85px;
     width: 75px;
-    bottom: -47px;
+    bottom: -20px;
     animation: stretch 2s ease infinite;
 }
 
@@ -171,17 +171,20 @@ li:hover:after {
         font-size: 15px;
     }
 }
+/* END NAVBAR STYLING */
 
-
+/* START HOME STYLING */
 .main {
     background-color: #005F73;  
+    padding: 20px;
     width: 100vw;
+    height: 100vh;
 }
 
 #title {
     font-family: 'Fascinate Inline', cursive;
     text-align: center;
-    font-size: 1000;
+    font-size: 100px;
     font-weight: bolder;
     color: #EE9B00;
     justify-content: center;
@@ -196,8 +199,7 @@ footer {
     text-align: center;
     width: 100vw;
     background-color: #CA6702;
-    padding: 10;
-    margin: 0.5;
+    padding: 10px;
 }
 
 /*ul {
