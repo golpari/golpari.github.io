@@ -173,9 +173,9 @@ li:hover:after {
 }
 
 
-h1 {
+.main {
     background-color: #005F73;  
-    width: 100%;
+    width: 100vw;
 }
 
 #title {
