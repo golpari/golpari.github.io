@@ -6,7 +6,7 @@
 body {
     font-family: monospace;
     width: 100%;
-    background-color: #005F73;
+    background-color: #FEFAE0; /*NAVBAR COLOR */
     margin: 0;
     padding: 0;
     /*change this color to change navbar coloring*/
@@ -35,7 +35,6 @@ li {
     list-style-type: none;
     margin-right: 50px;
     cursor: pointer;
-    color: #E9D8A6;
     margin-bottom: 0;
 }
 
@@ -55,21 +54,22 @@ li:after {
     left: 50%;
     transform: translateX(-50%) rotate(0deg);
 }
-
+ 
+/* NAVSHAPES COLOR */
 li:nth-child(1):after {
-    background: #CA6702;
+    background: #e9edc9; 
 }
 
 li:nth-child(2):after {
-    background: #CA6702;
+    background: #e9edc9;
 }
 
 li:nth-child(3):after {
-    background: #CA6702;
+    background: #e9edc9;
 }
 
 li:nth-child(4):after {
-    background: #CA6702;
+    background: #e9edc9;
 }
 
 li:nth-child(1):after {
@@ -183,8 +183,9 @@ li:hover:after {
     }
 }
 
-a {
-    color: #E9D8A6;
+.anim {
+    color: #e09f3e; /*NAVBAR TEXT COLOR*/
+    font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -193,120 +194,110 @@ a {
 
 /* START HOME STYLING */
 .main {
-    display: flex;
-    position: relative;
+    z-index: 0;
+    padding-top: 5%;
+    display:flex;
     justify-content: center;
     place-content: center;
-    background-color: #E9D8A6;
+    background-color: #FEFAE0; /* MAIN COLOR */
     width: 100%;
     height: 100vh;
-}
-
-#spacer {
-    padding-top: 5%;
-    z-index: 0;
-    display: flex;
+    margin: 0;
 }
 
 #title {
+    position: absolute;
     padding-top: 7.5%;
     display: block;
     z-index: 2;
 }
 
 h1 {
+    margin: 0;
+    padding: 0;
     font-family: 'Fascinate Inline', cursive;
     text-align: center;
-    font-size: 100px;
+    font-size: 150px;
     font-weight: bolder;
-    color: #CA6702;
-    margin: 0;
+    color: #CA6702; /* GOLPARI ABARI COLOR */
 }
 
 .main p {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 25px;
-    color: #AE2012;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #CA6702; /* SUBTITLE COLOR */
 }
 
 
 .element {
     z-index: 1;
-    display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     width: 800px;
     height: 450px;
-    background-image: linear-gradient(to right, #EE9B00, #0A9396);
+    background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     animation-name: dancingSquares;
-    animation-duration: 8s;
+    animation-duration: 15s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 }
 
 @keyframes dancingSquares {
     25% {
-        background-image: linear-gradient(to right, #005F73, #9B2226);
+        background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
         clip-path: polygon(20% 0%, 100% 40%, 70% 100%, 10% 100%);
     }
 
     50% {
-        background-image: linear-gradient(to right, #c21500, #ffc500);
+        background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
         clip-path: polygon(0% 45%, 100% 20%, 50% 75%, 0% 100%);
     }
 
     75% {
-        background-image: linear-gradient(to right, #94D2BD, #9B2226);
+        background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
         clip-path: polygon(100% 38%, 100% 38%, 66% 100%, 0% 53%);
     }
 }
 
-
-
 p {
+    margin: 0;
     text-align: center;
-    font-size: 25px;
-    color: #E9D8A6;
+    font-size: 20px;
+    color: #e09f3e; /* FOOTER TEXT COLOR */
 }
 
+/* FOOTER STYLING */
 footer {
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    text-justify: center;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #005F73;
+    height: 50px;
+    background-color: #FEFAE0; /* FOOTER BG COLOR */
 }
-
-/*ul {
-    background-color: #CA6702;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+/* END FOOTER STYLING */
+.fullpage {
+    height: 100vh;
 }
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
+.oopsie {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100vh / 2;
+    margin-bottom: 100vh / 2;
+    color: CA6702;
+    font-size: 50px;
 }
-
-/* Change the navbar text color to red on hover 
-li a:hover {
-    background-color: #9B2226;
-}
-
-
-*/
