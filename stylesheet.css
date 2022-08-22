@@ -5,10 +5,10 @@
 /* START NAVBAR STYLING */
 body {
     font-family: monospace;
-    width: 100%;
     background-color: #FEFAE0; /*NAVBAR COLOR */
     margin: 0;
     padding: 0;
+    justify-content: center;
     /*change this color to change navbar coloring*/
 }
 
@@ -205,6 +205,15 @@ li:hover:after {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'Fascinate Inline', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: #606C38; 
+}
+
 #title {
     position: absolute;
     padding-top: 7.5%;
@@ -292,12 +301,52 @@ footer {
 .fullpage {
     height: 100vh;
 }
+
 .oopsie {
+    font-family: monospace;
     text-align: center;
     justify-content: center;
     align-content: center;
     margin-top: 100vh / 2;
     margin-bottom: 100vh / 2;
-    color: CA6702;
+    color: #606C38;
     font-size: 50px;
 }
+
+div {
+    font-family: monospace;
+    color: #e09f3e;
+    font-size: 50px;
+}
+
+#mainContainer {
+    display: inline-flex;
+    margin-left: 10%;    
+    margin-right: 10%;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.artCategory {
+    align-self: flex-start;
+    color: #CA6702;
+    font-weight:bolder;
+}
+
+img {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+hr { 
+    color: #606C38;
+    width: 90%;
+    height: 2px;
+    background-color:#606C38;
+    border: 0;
+} 
