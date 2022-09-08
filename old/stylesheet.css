@@ -5,7 +5,8 @@
 /* START NAVBAR STYLING */
 body {
     font-family: monospace;
-    background-color: #FEFAE0; /*NAVBAR COLOR */
+    background-color: #FEFAE0;
+    /*NAVBAR COLOR */
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -24,13 +25,13 @@ body {
     /*connects to height alignment*/
 }
 
-ul {
+#navbar {
     display: flex;
     flex-direction: row;
     font-size: 22px;
 }
 
-li {
+.navbarItem {
     position: relative;
     list-style-type: none;
     margin-right: 50px;
@@ -38,41 +39,41 @@ li {
     margin-bottom: 0;
 }
 
-li:first-child {
+.navbarItem:first-child {
     margin-left: 50px;
     /*margin-right: 1050px;*/
 }
 
-li:last-child {
+.navbarItem:last-child {
     margin-right: 30px;
 }
 
-li:after {
+.navbarItem:after {
     content: '';
     position: absolute;
     z-index: -1;
     left: 50%;
     transform: translateX(-50%) rotate(0deg);
 }
- 
+
 /* NAVSHAPES COLOR */
-li:nth-child(1):after {
-    background: #e9edc9; 
-}
-
-li:nth-child(2):after {
+.navbarItem:nth-child(1):after {
     background: #e9edc9;
 }
 
-li:nth-child(3):after {
+.navbarItem:nth-child(2):after {
     background: #e9edc9;
 }
 
-li:nth-child(4):after {
+.navbarItem:nth-child(3):after {
     background: #e9edc9;
 }
 
-li:nth-child(1):after {
+.navbarItem:nth-child(4):after {
+    background: #e9edc9;
+}
+
+.navbarItem:nth-child(1):after {
     clip-path: polygon(6% 10%, 100% 0, 64% 65%, 28% 65%);
     height: 85px;
     width: 75px;
@@ -95,7 +96,7 @@ li:nth-child(1):after {
     }
 }
 
-li:nth-child(2):after {
+.navbarItem:nth-child(2):after {
     clip-path: polygon(61% 0%, 100% 19%, 71% 100%, 0% 100%);
     height: 55px;
     width: 75px;
@@ -119,7 +120,7 @@ li:nth-child(2):after {
     }
 }
 
-li:nth-child(3):after {
+.navbarItem:nth-child(3):after {
     clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 57%);
     height: 55px;
     width: 45px;
@@ -143,7 +144,7 @@ li:nth-child(3):after {
     }
 }
 
-li:nth-child(4):after {
+.navbarItem:nth-child(4):after {
     clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
     height: 55px;
     width: 45px;
@@ -167,7 +168,7 @@ li:nth-child(4):after {
     }
 }
 
-li:hover:after {
+.navbarItem:hover:after {
     animation: boink 1s ease forwards 1;
 }
 
@@ -178,13 +179,14 @@ li:hover:after {
 }
 
 @media (max-width: 600px) {
-    li {
+    .navbarItem {
         font-size: 15px;
     }
 }
 
 .anim {
-    color: #e09f3e; /*NAVBAR TEXT COLOR*/
+    color: #403e3b;
+    /*NAVBAR TEXT COLOR*/
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
@@ -196,10 +198,11 @@ li:hover:after {
 .main {
     z-index: 0;
     padding-top: 5%;
-    display:flex;
+    display: flex;
     justify-content: center;
     place-content: center;
-    background-color: #FEFAE0; /* MAIN COLOR */
+    background-color: #FEFAE0;
+    /* MAIN COLOR */
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -211,7 +214,7 @@ h2 {
     font-family: 'Fascinate Inline', cursive;
     text-align: center;
     font-size: 100px;
-    color: #606C38; 
+    color: #1a1717;
 }
 
 #title {
@@ -228,7 +231,8 @@ h1 {
     text-align: center;
     font-size: 150px;
     font-weight: bolder;
-    color: #CA6702; /* GOLPARI ABARI COLOR */
+    color: #1a1717;
+    /* GOLPARI ABARI COLOR */
 }
 
 .main p {
@@ -238,7 +242,8 @@ h1 {
     font-size: 50px;
     font-weight: lighter;
     font-style: italic;
-    color: #CA6702; /* SUBTITLE COLOR */
+    color: #1a1717;
+    /* SUBTITLE COLOR */
 }
 
 
@@ -251,7 +256,8 @@ h1 {
     position: absolute;
     width: 800px;
     height: 450px;
-    background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
+    background-image: linear-gradient(to right, #606C38, #e9edc9);
+    /* GRADIENT COLORS */
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     animation-name: dancingSquares;
     animation-duration: 15s;
@@ -261,17 +267,20 @@ h1 {
 
 @keyframes dancingSquares {
     25% {
-        background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
+        background-image: linear-gradient(to right, #606C38, #e9edc9);
+        /* GRADIENT COLORS */
         clip-path: polygon(20% 0%, 100% 40%, 70% 100%, 10% 100%);
     }
 
     50% {
-        background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
+        background-image: linear-gradient(to right, #606C38, #e9edc9);
+        /* GRADIENT COLORS */
         clip-path: polygon(0% 45%, 100% 20%, 50% 75%, 0% 100%);
     }
 
     75% {
-        background-image: linear-gradient(to right, #606C38, #e9edc9); /* GRADIENT COLORS */
+        background-image: linear-gradient(to right, #606C38, #e9edc9);
+        /* GRADIENT COLORS */
         clip-path: polygon(100% 38%, 100% 38%, 66% 100%, 0% 53%);
     }
 }
@@ -280,7 +289,8 @@ p {
     margin: 0;
     text-align: center;
     font-size: 20px;
-    color: #e09f3e; /* FOOTER TEXT COLOR */
+    color: #403e3b;
+    /* FOOTER TEXT COLOR */
 }
 
 /* FOOTER STYLING */
@@ -295,8 +305,10 @@ footer {
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: #FEFAE0; /* FOOTER BG COLOR */
+    background-color: #FEFAE0;
+    /* FOOTER BG COLOR */
 }
+
 /* END FOOTER STYLING */
 .fullpage {
     height: 100vh;
@@ -321,7 +333,7 @@ div {
 
 #mainContainer {
     display: inline-flex;
-    margin-left: 10%;    
+    margin-left: 10%;
     margin-right: 10%;
     justify-content: center;
 }
@@ -333,8 +345,9 @@ div {
 
 .artCategory {
     align-self: flex-start;
-    color: #CA6702;
-    font-weight:bolder;
+    color: #606C38;
+    /*subtitle color*/
+    font-weight: bolder;
 }
 
 img {
@@ -343,10 +356,55 @@ img {
     align-items: center;
 }
 
-hr { 
-    color: #606C38;
+hr {
+    color: #e9edc9;
     width: 90%;
     height: 2px;
-    background-color:#606C38;
+    background-color: #e9edc9;
     border: 0;
-} 
+}
+
+.HoverContainer {
+    border-radius: 25px;
+    position: relative;
+    width: fit-content;
+}
+
+.image {
+    border-radius: 25px;
+    background-color: #dedede;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #dedede;
+}
+
+.HoverContainer:hover .overlay {
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

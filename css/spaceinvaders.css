@@ -1,0 +1,475 @@
+/* screen - spaceinvaders */
+
+.spaceinvaders {
+  align-items: center;
+  background-color: var(--fantasy);
+  display: flex;
+  flex-direction: column;
+  height: 2248px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.spaceinvaders .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 1001px;
+  width: 1920px;
+}
+
+.spaceinvaders .overlap-group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 361px;
+  width: 1920px;
+}
+
+.spaceinvaders .overlap-group2 {
+  height: 161px;
+  position: relative;
+  width: 1920px;
+}
+
+.spaceinvaders .navbar {
+  align-items: flex-end;
+  background-color: var(--fantasy);
+  display: flex;
+  height: 161px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 45px 53px;
+  position: absolute;
+  top: 0;
+}
+
+.spaceinvaders .portfolio {
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  width: 180px;
+}
+
+.spaceinvaders .portfolio-1 {
+  flex: 1;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-left: 26px;
+  margin-right: 24px;
+  margin-top: 13px;
+  white-space: nowrap;
+}
+
+.spaceinvaders .artwork {
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  width: 163px;
+}
+
+.spaceinvaders .artwork-1 {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-right: 22px;
+  margin-top: 13px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.spaceinvaders .resume {
+  align-items: flex-end;
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  min-width: 163px;
+  padding: 5px 23px;
+}
+
+.spaceinvaders .resume-1 {
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 48px;
+  min-width: 114px;
+  white-space: nowrap;
+}
+
+.spaceinvaders .about {
+  align-items: flex-end;
+  background-color: var(--cream-brulee);
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  min-width: 145px;
+  padding: 5px 28px;
+}
+
+.spaceinvaders .about-1 {
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 48px;
+  min-width: 86px;
+  white-space: nowrap;
+}
+
+.spaceinvaders .ga-home {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 97px;
+  justify-content: center;
+  left: 55px;
+  min-width: 97px;
+  position: absolute;
+  top: 35px;
+}
+
+.spaceinvaders .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/path-2-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 115px;
+  justify-content: flex-end;
+  margin-top: -6px;
+  min-width: 115px;
+  padding: 23.0px 31px;
+}
+
+.spaceinvaders .ga {
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 62px;
+  min-width: 52px;
+  white-space: nowrap;
+}
+
+.spaceinvaders .overlap-group1 {
+  height: 190px;
+  margin-left: 2.0px;
+  margin-top: 10px;
+  position: relative;
+  width: 652px;
+}
+
+.spaceinvaders .space-invaders {
+  left: 0;
+  letter-spacing: -5.20px;
+  line-height: 130px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.spaceinvaders .class-project {
+  height: 46px;
+  left: 104px;
+  letter-spacing: -1.60px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 144px;
+  white-space: nowrap;
+  width: 445px;
+}
+
+.spaceinvaders .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  margin-top: 20px;
+  min-width: 1490px;
+}
+
+.spaceinvaders .spaceinvaders-1 {
+  border-radius: 25px;
+  height: 620px;
+  object-fit: cover;
+  width: 561px;
+}
+
+.spaceinvaders .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+  margin-top: 29px;
+  min-height: 450px;
+  width: 881px;
+}
+
+.spaceinvaders .background {
+  height: 52px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  margin-bottom: -8px;
+  white-space: nowrap;
+}
+
+.spaceinvaders .as-a-study-of-object {
+  align-self: flex-end;
+  letter-spacing: -1.52px;
+  line-height: 45px;
+  margin-top: 34px;
+  min-height: 363px;
+  width: 823px;
+}
+
+.spaceinvaders .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 636px;
+  margin-left: 8.0px;
+  margin-top: 205px;
+  min-width: 1536px;
+}
+
+.spaceinvaders .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 566px;
+  width: 927px;
+}
+
+.spaceinvaders .work {
+  height: 46px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  margin-bottom: -14px;
+  white-space: nowrap;
+}
+
+.spaceinvaders .i-wrote-this-project {
+  align-self: flex-end;
+  letter-spacing: -1.52px;
+  line-height: 45px;
+  margin-top: 68px;
+  min-height: 453px;
+  width: 849px;
+}
+
+.spaceinvaders .image-7 {
+  align-self: flex-end;
+  border-radius: 70px;
+  height: 622px;
+  margin-left: 49px;
+  object-fit: cover;
+  width: 560px;
+}
+
+.spaceinvaders .group-24 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 54px;
+  min-height: 319px;
+  width: 2110px;
+}
+
+.spaceinvaders .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 138px;
+  width: 2114px;
+}
+
+.spaceinvaders .line-1 {
+  height: 4px;
+  object-fit: cover;
+  width: 2114px;
+}
+
+.spaceinvaders .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 285.75px;
+  margin-top: 44px;
+  min-width: 360px;
+}
+
+.spaceinvaders .navigate {
+  letter-spacing: -1.52px;
+  line-height: 38px;
+  min-height: 48px;
+  text-align: right;
+  width: 129px;
+}
+
+.spaceinvaders .place {
+  letter-spacing: -1.52px;
+  line-height: 38px;
+  margin-left: 104px;
+  min-height: 48px;
+  text-align: right;
+  width: 127px;
+}
+
+.spaceinvaders .flex-row-3 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 318.75px;
+  margin-top: 1px;
+  min-width: 450px;
+}
+
+.spaceinvaders .component-5-17 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  width: 141px;
+}
+
+.spaceinvaders .place-1 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: -2px;
+}
+
+.spaceinvaders .washington-dc {
+  height: 32px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 100px;
+  white-space: nowrap;
+  width: 209px;
+}
+
+.spaceinvaders .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 180px;
+  margin-left: 25.0px;
+  margin-top: 5px;
+  min-width: 1501px;
+}
+
+.spaceinvaders .component-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 178px;
+  width: 176px;
+}
+
+.spaceinvaders .component-6-17 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  width: 131px;
+}
+
+.spaceinvaders .portfolio-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.spaceinvaders .component-7-17 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 5px;
+  width: 146px;
+}
+
+.spaceinvaders .artwork-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.spaceinvaders .component-8-17 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 4px;
+  width: 174px;
+}
+
+.spaceinvaders .resume-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.spaceinvaders .component-9-17 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 5px;
+  width: 111px;
+}
+
+.spaceinvaders .about-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.spaceinvaders .email-golpariu-mich {
+  height: 98px;
+  letter-spacing: -1.20px;
+  line-height: 35px;
+  margin-left: 65px;
+  margin-top: 10.5px;
+  width: 362px;
+}
+
+.spaceinvaders .golpari-abari-september-2022 {
+  align-self: flex-end;
+  height: 24px;
+  letter-spacing: -0.80px;
+  line-height: 20px;
+  margin-left: 634px;
+  white-space: nowrap;
+  width: 264px;
+}

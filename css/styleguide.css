@@ -1,0 +1,93 @@
+:root { 
+  --black: #000000;
+  --cream-brulee: #ffdda1;
+  --cream-brulee-2: #ffdda173;
+  --dove-gray: #707070;
+  --fantasy: #f9f1f1;
+  --white: #ffffff;
+  --zeus: #2b211c;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 38px;
+  --font-size-s: 30px;
+  --font-size-xl: 50px;
+  --font-size-xs: 20px;
+  --font-size-xxl: 60px;
+  --font-size-xxxl: 130px;
+ 
+  --font-family-pedestriamvb-bold: "PedestriaMVB-Bold", Helvetica;
+  --font-family-pedestriamvb-medium: "PedestriaMVB-Medium", Helvetica;
+  --font-family-pedestriamvb-regular: "PedestriaMVB-Regular", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+}
+.pedestriamvb-regular-normal-zeus-30px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pedestriamvb-medium-zeus-38px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.pedestriamvb-regular-normal-zeus-38px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-regular-normal-dove-gray-20px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pedestriamvb-regular-normal-zeus-60px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pedestriamvb-regular-normal-zeus-50px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pedestriamvb-medium-zeus-130px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-medium);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.pedestriamvb-regular-normal-zeus-20px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pedestriamvb-regular-normal-zeus-40px {
+  color: var(--zeus);
+  font-family: var(--font-family-pedestriamvb-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}

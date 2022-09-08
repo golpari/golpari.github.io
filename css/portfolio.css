@@ -1,0 +1,483 @@
+/* screen - portfolio */
+
+.portfolio {
+  align-items: flex-start;
+  background-color: var(--fantasy);
+  display: flex;
+  flex-direction: column;
+  height: 1459px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.portfolio .overlap-group2 {
+  height: 290px;
+  position: relative;
+  width: 1920px;
+  z-index: 3;
+}
+
+.portfolio .navbar {
+  align-items: flex-end;
+  background-color: var(--fantasy);
+  display: flex;
+  height: 161px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 45px 53px;
+  position: absolute;
+  top: 0;
+}
+
+.portfolio .portfolio-1 {
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  display: flex;
+  height: 66px;
+  width: 180px;
+}
+
+.portfolio .portfolio-2 {
+  flex: 1;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-left: 26px;
+  margin-right: 24px;
+  margin-top: 13px;
+  white-space: nowrap;
+}
+
+.portfolio .artwork {
+  background-color: var(--cream-brulee-2);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  width: 163px;
+}
+
+.portfolio .artwork-1 {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-right: 22px;
+  margin-top: 13px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.portfolio .resume {
+  align-items: flex-end;
+  background-color: var(--cream-brulee-2);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  min-width: 163px;
+  padding: 5px 23px;
+}
+
+.portfolio .resume-1 {
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 48px;
+  min-width: 114px;
+  white-space: nowrap;
+}
+
+.portfolio .about {
+  align-items: flex-end;
+  background-color: var(--cream-brulee-2);
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  min-width: 145px;
+  padding: 5px 28px;
+}
+
+.portfolio .about-1 {
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 48px;
+  min-width: 86px;
+  white-space: nowrap;
+}
+
+.portfolio .portfolio-3 {
+  left: 762px;
+  letter-spacing: -5.20px;
+  line-height: 130px;
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  white-space: nowrap;
+}
+
+.portfolio .ga-home {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 97px;
+  justify-content: center;
+  left: 55px;
+  min-width: 97px;
+  position: fixed;
+  top: 35px;
+  z-index: 4;
+}
+
+.portfolio .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/path-2-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 115px;
+  justify-content: flex-end;
+  margin-top: -6px;
+  min-width: 115px;
+  padding: 23.0px 31px;
+}
+
+.portfolio .ga {
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 62px;
+  min-width: 52px;
+  white-space: nowrap;
+}
+
+.portfolio .component-container {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 36px;
+  min-width: 1578px;
+  z-index: 2;
+}
+
+.portfolio .component-17-2 {
+  align-self: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 364px;
+  margin-bottom: 16px;
+  width: 663px;
+}
+
+.portfolio .group-2 {
+  background-color: #f6f6f6;
+  border-radius: 120px;
+  box-shadow: -10px 10px 12px #00000029;
+  display: flex;
+  flex: 1;
+  margin-left: 3px;
+  width: 660px;
+}
+
+.portfolio .untitled-design-3 {
+  flex: 1;
+  margin-bottom: 7px;
+  margin-left: 26px;
+  margin-right: 46px;
+  margin-top: 26px;
+  object-fit: cover;
+  width: 588px;
+}
+
+.portfolio .component-18-2 {
+  cursor: pointer;
+  display: flex;
+  height: 416px;
+  margin-bottom: 1.0px;
+  margin-left: 46px;
+  width: 416px;
+}
+
+.portfolio .image-1 {
+  border-radius: 76px;
+  flex: 1;
+  margin-bottom: -28px;
+  margin-left: -18px;
+  margin-right: -18px;
+  margin-top: -8px;
+  object-fit: cover;
+  width: 452px;
+}
+
+.portfolio .component-19-2 {
+  cursor: pointer;
+  display: flex;
+  height: 447px;
+  margin-left: 50px;
+  width: 403px;
+}
+
+.portfolio .spaceinvaders {
+  border-radius: 25px;
+  flex: 1;
+  margin-bottom: -28px;
+  margin-left: -8px;
+  margin-right: -28px;
+  margin-top: -8px;
+  object-fit: cover;
+  width: 439px;
+}
+
+.portfolio .flex-row {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 6px;
+  min-width: 1581px;
+  z-index: 1;
+}
+
+.portfolio .component-20-2 {
+  cursor: pointer;
+  display: flex;
+  height: 238px;
+  width: 1031px;
+}
+
+.portfolio .image-3 {
+  border-radius: 82px;
+  flex: 1;
+  margin-bottom: -28px;
+  margin-left: -28px;
+  margin-right: -8px;
+  margin-top: -8px;
+  object-fit: cover;
+  width: 1067px;
+}
+
+.portfolio .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/path-6-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 249px;
+  margin-bottom: -28px;
+  margin-left: 47px;
+  min-width: 531px;
+  padding: 85px 58px;
+}
+
+.portfolio .more-coming-soon {
+  letter-spacing: -2.00px;
+  line-height: 50px;
+  min-height: 62px;
+  text-align: center;
+  width: 398px;
+}
+
+.portfolio .group-24 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -175.75px;
+  margin-top: 90px;
+  min-height: 319px;
+  width: 2110px;
+  z-index: 5;
+}
+
+.portfolio .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 138px;
+  width: 2114px;
+}
+
+.portfolio .line-1 {
+  height: 4px;
+  object-fit: cover;
+  width: 2114px;
+}
+
+.portfolio .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 285.75px;
+  margin-top: 44px;
+  min-width: 360px;
+}
+
+.portfolio .navigate {
+  letter-spacing: -1.52px;
+  line-height: 38px;
+  min-height: 48px;
+  text-align: right;
+  width: 129px;
+}
+
+.portfolio .place {
+  letter-spacing: -1.52px;
+  line-height: 38px;
+  margin-left: 104px;
+  min-height: 48px;
+  text-align: right;
+  width: 127px;
+}
+
+.portfolio .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 318.75px;
+  margin-top: 1px;
+  min-width: 450px;
+}
+
+.portfolio .component-5-10 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  width: 141px;
+}
+
+.portfolio .place-1 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: -2px;
+}
+
+.portfolio .washington-dc {
+  height: 32px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 100px;
+  white-space: nowrap;
+  width: 209px;
+}
+
+.portfolio .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 180px;
+  margin-left: 25.0px;
+  margin-top: 5px;
+  min-width: 1501px;
+}
+
+.portfolio .component-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 178px;
+  width: 176px;
+}
+
+.portfolio .component-6-10 {
+  align-items: flex-end;
+  display: flex;
+  height: 41px;
+  width: 131px;
+}
+
+.portfolio .portfolio-4 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.portfolio .component-7-10 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 5px;
+  width: 146px;
+}
+
+.portfolio .artwork-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.portfolio .component-8-10 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 4px;
+  width: 174px;
+}
+
+.portfolio .resume-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.portfolio .component-9-10 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 5px;
+  width: 111px;
+}
+
+.portfolio .about-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.portfolio .email-golpariu-mich {
+  height: 98px;
+  letter-spacing: -1.20px;
+  line-height: 35px;
+  margin-left: 65px;
+  margin-top: 10.5px;
+  width: 362px;
+}
+
+.portfolio .golpari-abari-september-2022 {
+  align-self: flex-end;
+  height: 24px;
+  letter-spacing: -0.80px;
+  line-height: 20px;
+  margin-left: 634px;
+  white-space: nowrap;
+  width: 264px;
+}

@@ -1,0 +1,14 @@
+/* screen - resumeplaceholder */
+
+.resumeplaceholder {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1920px;
+}
+
+.resumeplaceholder .image-8 {
+  height: 2484px;
+  object-fit: cover;
+  width: 1920px;
+}

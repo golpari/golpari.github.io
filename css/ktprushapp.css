@@ -1,0 +1,1731 @@
+/* screen - ktprushapp */
+
+.ktprushapp {
+  align-items: flex-start;
+  background-color: var(--fantasy);
+  display: flex;
+  flex-direction: column;
+  height: 4106px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.ktprushapp .overlap-group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 1055px;
+  width: 1920px;
+}
+
+.ktprushapp .overlap-group19 {
+  height: 161px;
+  position: relative;
+  width: 1920px;
+}
+
+.ktprushapp .navbar {
+  align-items: flex-end;
+  background-color: var(--fantasy);
+  display: flex;
+  height: 161px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 45px 53px;
+  position: absolute;
+  top: 0;
+}
+
+.ktprushapp .portfolio {
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  width: 180px;
+}
+
+.ktprushapp .portfolio-1 {
+  flex: 1;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-left: 26px;
+  margin-right: 24px;
+  margin-top: 13px;
+  white-space: nowrap;
+}
+
+.ktprushapp .artwork {
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  width: 163px;
+}
+
+.ktprushapp .artwork-1 {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-right: 22px;
+  margin-top: 13px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.ktprushapp .resume {
+  align-items: flex-end;
+  background-color: var(--cream-brulee);
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  min-width: 163px;
+  padding: 5px 23px;
+}
+
+.ktprushapp .resume-1 {
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 48px;
+  min-width: 114px;
+  white-space: nowrap;
+}
+
+.ktprushapp .about {
+  align-items: flex-end;
+  background-color: var(--cream-brulee);
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  margin-left: 14px;
+  min-width: 145px;
+  padding: 5px 28px;
+}
+
+.ktprushapp .about-1 {
+  letter-spacing: 0;
+  line-height: 38px;
+  min-height: 48px;
+  min-width: 86px;
+  white-space: nowrap;
+}
+
+.ktprushapp .ga-home {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 97px;
+  justify-content: center;
+  left: 55px;
+  min-width: 97px;
+  position: absolute;
+  top: 35px;
+}
+
+.ktprushapp .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/path-2-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 115px;
+  justify-content: flex-end;
+  margin-top: -6px;
+  min-width: 115px;
+  padding: 23.0px 31px;
+}
+
+.ktprushapp .ga {
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 62px;
+  min-width: 52px;
+  white-space: nowrap;
+}
+
+.ktprushapp .overlap-group18 {
+  height: 884px;
+  margin-left: 49.0px;
+  margin-top: 10px;
+  position: relative;
+  width: 1499px;
+}
+
+.ktprushapp .overlap-group-container-1 {
+  height: 884px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 968px;
+}
+
+.ktprushapp .overlap-group17 {
+  height: 788px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 531px;
+}
+
+.ktprushapp .overlap-group-3 {
+  align-items: flex-start;
+  border: 17px solid;
+  border-color: var(--white);
+  border-radius: 47px;
+  box-shadow: -10px 10px 12px #00000029;
+  display: flex;
+  height: 701px;
+  left: -8px;
+  min-width: 337px;
+  position: absolute;
+  top: -8px;
+}
+
+.ktprushapp .rectangle-26 {
+  border-radius: 39px;
+  height: 677px;
+  margin-left: -5px;
+  margin-top: -4.95px;
+  object-fit: cover;
+  width: 314px;
+}
+
+.ktprushapp .image-6 {
+  border-radius: 65px;
+  height: 329px;
+  left: 202px;
+  object-fit: cover;
+  position: absolute;
+  top: 459px;
+  width: 329px;
+}
+
+.ktprushapp .overlap-group16 {
+  height: 190px;
+  left: 484px;
+  position: absolute;
+  top: 0;
+  width: 484px;
+}
+
+.ktprushapp .surname {
+  left: 39px;
+  letter-spacing: -5.20px;
+  line-height: 130px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.ktprushapp .kappa-theta-pi-alpha-chapter {
+  height: 46px;
+  left: 0;
+  letter-spacing: -1.60px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 144px;
+  white-space: nowrap;
+  width: 484px;
+}
+
+.ktprushapp .background {
+  height: 52px;
+  left: 592px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  position: absolute;
+  top: 238px;
+  white-space: nowrap;
+  width: 298px;
+}
+
+.ktprushapp .kappa-theta-pi-is-th {
+  left: 646px;
+  letter-spacing: -1.52px;
+  line-height: 45px;
+  position: absolute;
+  top: 325px;
+  width: 853px;
+}
+
+.ktprushapp .flex-row-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 1402px;
+  margin-left: 22.0px;
+  margin-top: 151px;
+  min-width: 1550px;
+}
+
+.ktprushapp .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 1402px;
+  width: 1155px;
+}
+
+.ktprushapp .work {
+  height: 46px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  margin-bottom: -14px;
+  white-space: nowrap;
+}
+
+.ktprushapp .designed-by-a-team-o {
+  align-self: center;
+  letter-spacing: -1.52px;
+  line-height: 45px;
+  margin-right: 72.0px;
+  margin-top: 34px;
+  min-height: 1038px;
+  width: 977px;
+}
+
+.ktprushapp .iterative-design-example {
+  height: 46px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  margin-bottom: -14px;
+  margin-top: 144px;
+  white-space: nowrap;
+}
+
+.ktprushapp .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 48px;
+  min-width: 1155px;
+}
+
+.ktprushapp .text-8 {
+  height: 46px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.ktprushapp .text-9 {
+  height: 46px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  margin-left: 385px;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.ktprushapp .x3-final {
+  height: 46px;
+  letter-spacing: -2.40px;
+  line-height: 60px;
+  margin-left: 385px;
+  white-space: nowrap;
+}
+
+.ktprushapp .overlap-group2 {
+  align-items: flex-start;
+  border: 17px solid;
+  border-color: var(--white);
+  border-radius: 47px;
+  box-shadow: 10px 10px 12px #00000029;
+  display: flex;
+  height: 825px;
+  margin-left: 12px;
+  margin-top: -8.5px;
+  min-width: 392px;
+}
+
+.ktprushapp .group-29 {
+  display: flex;
+  height: 801px;
+  margin-left: -9px;
+  margin-top: -1.5px;
+  width: 375px;
+}
+
+.ktprushapp .rectangle-28 {
+  border-radius: 47px;
+  flex: 1;
+  object-fit: cover;
+  width: 375px;
+}
+
+.ktprushapp .group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 1047px;
+  margin-right: 59px;
+  margin-top: 38px;
+  min-width: 1665px;
+}
+
+.ktprushapp .group-34 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  margin-top: 4px;
+  overflow: hidden;
+  width: 390px;
+}
+
+.ktprushapp .overlap-group14 {
+  align-items: flex-start;
+  background-color: #89b181;
+  display: flex;
+  flex-direction: column;
+  min-height: 118px;
+  width: 390px;
+}
+
+.ktprushapp .overlap-group11 {
+  align-items: center;
+  background-color: #4e7246cc;
+  display: flex;
+  height: 37px;
+  justify-content: flex-end;
+  min-width: 390px;
+  padding: 8px 28px;
+}
+
+.ktprushapp .path-71 {
+  height: 11px;
+  margin-top: 2.09px;
+  object-fit: cover;
+  width: 38px;
+}
+
+.ktprushapp .rectangle-72 {
+  height: 17px;
+  margin-left: 1px;
+  margin-top: 0.71px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.ktprushapp .rectangle-71 {
+  height: 15px;
+  margin-left: 200px;
+  margin-top: 2.0px;
+  object-fit: cover;
+  width: 16px;
+}
+
+.ktprushapp .path-70 {
+  height: 11px;
+  margin-left: 7px;
+  margin-top: 2.09px;
+  object-fit: cover;
+  width: 25px;
+}
+
+.ktprushapp .rectangle-70 {
+  align-self: flex-end;
+  height: 20px;
+  margin-left: 8px;
+  object-fit: cover;
+  width: 20px;
+}
+
+.ktprushapp .flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 26px;
+  margin-top: 23px;
+  min-width: 224px;
+}
+
+.ktprushapp .rectangle-68 {
+  height: 32px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.ktprushapp .path-69 {
+  height: 19px;
+  margin-left: 26px;
+  margin-top: 1.42px;
+  object-fit: cover;
+  width: 166px;
+}
+
+.ktprushapp .flex-col-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  margin-top: 14px;
+  min-height: 797px;
+  padding: 11px 9px;
+  width: 368px;
+}
+
+.ktprushapp .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 306px;
+}
+
+.ktprushapp .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-63@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  min-width: 259px;
+}
+
+.ktprushapp .rectangle-65 {
+  border-radius: 10px;
+  height: 259px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.ktprushapp .overlap-group-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+  margin-top: 1.35px;
+  min-height: 75px;
+  width: 36px;
+}
+
+.ktprushapp .overlap-group10 {
+  align-items: flex-start;
+  background-image: url(../img/path-59@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-left: 2.99px;
+  min-width: 28px;
+}
+
+.ktprushapp .path-65 {
+  height: 27px;
+  object-fit: cover;
+  width: 28px;
+}
+
+.ktprushapp .overlap-group4 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-64@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-top: 12px;
+  min-width: 36px;
+}
+
+.ktprushapp .rectangle-66 {
+  height: 36px;
+  object-fit: cover;
+  width: 36px;
+}
+
+.ktprushapp .flex-col-2 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.42px;
+  margin-top: 12px;
+  min-height: 479px;
+  width: 312px;
+}
+
+.ktprushapp .overlap-group2-1 {
+  align-items: flex-start;
+  background-image: url(../img/path-58@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-right: 4.46px;
+  min-width: 197px;
+}
+
+.ktprushapp .path-64 {
+  height: 22px;
+  object-fit: cover;
+  width: 197px;
+}
+
+.ktprushapp .overlap-group-container-3 {
+  align-items: center;
+  display: flex;
+  margin-right: 13.36px;
+  margin-top: 6px;
+  min-width: 224px;
+}
+
+.ktprushapp .overlap-group6 {
+  align-items: flex-start;
+  background-image: url(../img/path-61@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-bottom: 1.64px;
+  min-width: 105px;
+}
+
+.ktprushapp .path-67 {
+  height: 18px;
+  object-fit: cover;
+  width: 105px;
+}
+
+.ktprushapp .ellipse-container {
+  border-radius: 3.36px/3.5px;
+  height: 7px;
+  margin-bottom: 0.91px;
+  margin-left: 8px;
+  position: relative;
+  width: 7px;
+}
+
+.ktprushapp .ellipse {
+  background-color: var(--black);
+  border-radius: 3.36px/3.5px;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 7px;
+}
+
+.ktprushapp .overlap-group-4 {
+  align-items: flex-start;
+  background-image: url(../img/path-60@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-left: 8px;
+  min-width: 96px;
+}
+
+.ktprushapp .path-66 {
+  height: 23px;
+  object-fit: cover;
+  width: 96px;
+}
+
+.ktprushapp .overlap-group1-1 {
+  align-items: flex-start;
+  background-image: url(../img/line-16@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-right: 0.57px;
+  margin-top: 11px;
+  min-width: 261px;
+}
+
+.ktprushapp .line-1 {
+  height: 5px;
+  object-fit: cover;
+  width: 261px;
+}
+
+.ktprushapp .overlap-group8 {
+  align-items: flex-start;
+  background-image: url(../img/path-57@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-right: 17.69px;
+  margin-top: 15px;
+  min-width: 267px;
+}
+
+.ktprushapp .path-63 {
+  height: 98px;
+  object-fit: cover;
+  width: 267px;
+}
+
+.ktprushapp .overlap-group7 {
+  align-items: flex-start;
+  background-image: url(../img/line-16@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-right: 0.57px;
+  margin-top: 16px;
+  min-width: 261px;
+}
+
+.ktprushapp .overlap-group5 {
+  align-items: flex-start;
+  background-image: url(../img/path-62@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-top: 19px;
+  min-width: 312px;
+}
+
+.ktprushapp .path-68 {
+  height: 259px;
+  object-fit: cover;
+  width: 312px;
+}
+
+.ktprushapp .group-35 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  min-height: 812px;
+  padding: 21.3px 14.7px;
+  width: 375px;
+}
+
+.ktprushapp .flex-row {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 12px;
+  min-width: 334px;
+}
+
+.ktprushapp .path {
+  align-self: flex-end;
+  height: 10px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.ktprushapp .path-1 {
+  align-self: center;
+  height: 11px;
+  margin-bottom: 0.49px;
+  margin-left: 243px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.ktprushapp .path-2 {
+  height: 11px;
+  margin-left: 5px;
+  object-fit: cover;
+  width: 15px;
+}
+
+.ktprushapp .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/path-22@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 11px;
+  margin-left: 5px;
+  margin-top: 0;
+  min-width: 24px;
+  padding: 2.0px 2.0px;
+}
+
+.ktprushapp .rectangle {
+  background-color: var(--black);
+  border-radius: 1.33px;
+  height: 7px;
+  width: 18px;
+}
+
+.ktprushapp .path-77 {
+  align-self: flex-start;
+  height: 14px;
+  margin-left: 16.08px;
+  margin-top: 23px;
+  object-fit: cover;
+  width: 8px;
+}
+
+.ktprushapp .rectangle-76 {
+  border-radius: 10px;
+  height: 259px;
+  margin-top: 25px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.ktprushapp .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1.41px;
+  margin-top: 20px;
+  min-width: 258px;
+}
+
+.ktprushapp .path-3 {
+  align-self: flex-end;
+  height: 17px;
+  object-fit: cover;
+  width: 149px;
+}
+
+.ktprushapp .rectangle-1 {
+  height: 23px;
+  margin-left: 86px;
+  object-fit: cover;
+  width: 23px;
+}
+
+.ktprushapp .path-container {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 15px;
+  margin-left: 44.38px;
+  margin-top: 11px;
+  min-width: 138px;
+}
+
+.ktprushapp .path-4 {
+  height: 14px;
+  object-fit: cover;
+  width: 77px;
+}
+
+.ktprushapp .path-5 {
+  align-self: flex-end;
+  height: 14px;
+  margin-left: 6px;
+  object-fit: cover;
+  width: 56px;
+}
+
+.ktprushapp .line-2 {
+  height: 1px;
+  margin-top: 23px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.ktprushapp .path-78 {
+  height: 69px;
+  margin-right: 85.32px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 173px;
+}
+
+.ktprushapp .line-21 {
+  height: 1px;
+  margin-top: 28px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.ktprushapp .path-81 {
+  height: 185px;
+  margin-right: 0.87px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 258px;
+}
+
+.ktprushapp .group-31 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  min-height: 1029px;
+  padding: 27.3px 14.7px;
+  width: 375px;
+}
+
+.ktprushapp .path-14 {
+  align-self: flex-start;
+  height: 14px;
+  margin-left: 16.08px;
+  margin-top: 17px;
+  object-fit: cover;
+  width: 8px;
+}
+
+.ktprushapp .ellipse-1 {
+  border-radius: 124px;
+  height: 248px;
+  margin-right: 1.0px;
+  margin-top: 31px;
+  object-fit: cover;
+  width: 248px;
+}
+
+.ktprushapp .flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1.41px;
+  margin-top: 25px;
+  min-width: 258px;
+}
+
+.ktprushapp .path-container-1 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 16px;
+  margin-left: 44.38px;
+  margin-top: 10px;
+  min-width: 138px;
+}
+
+.ktprushapp .path-15 {
+  height: 72px;
+  margin-right: 82.51px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 176px;
+}
+
+.ktprushapp .line-3 {
+  height: 1px;
+  margin-top: 25px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.ktprushapp .path-19 {
+  height: 185px;
+  margin-right: 0.85px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 258px;
+}
+
+.ktprushapp .line-4 {
+  height: 1px;
+  margin-top: 22px;
+  object-fit: cover;
+  width: 259px;
+}
+
+.ktprushapp .path-17 {
+  align-self: flex-start;
+  height: 13px;
+  margin-left: 45.99px;
+  margin-top: 20px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.ktprushapp .path-20 {
+  height: 107px;
+  margin-left: 9.46px;
+  margin-top: 23px;
+  object-fit: cover;
+  width: 246px;
+}
+
+.ktprushapp .group-32 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  min-height: 1047px;
+  padding: 28.3px 14.7px;
+  width: 375px;
+}
+
+.ktprushapp .flex-col-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 853px;
+  width: 343px;
+}
+
+.ktprushapp .flex-col-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 758px;
+  width: 343px;
+}
+
+.ktprushapp .path-21 {
+  height: 17px;
+  margin-left: 7.41px;
+  margin-top: 45px;
+  object-fit: cover;
+  width: 136px;
+}
+
+.ktprushapp .path-26 {
+  height: 10px;
+  margin-left: 6.51px;
+  margin-top: 12px;
+  object-fit: cover;
+  width: 252px;
+}
+
+.ktprushapp .overlap-group5-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 83px;
+  margin-left: 2px;
+  margin-top: 13px;
+  min-width: 340px;
+  padding: 0 16px;
+}
+
+.ktprushapp .rectangle-2 {
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
+}
+
+.ktprushapp .path-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.06px;
+  margin-left: 9px;
+  min-height: 43px;
+  width: 99px;
+}
+
+.ktprushapp .path-27 {
+  height: 7px;
+  object-fit: cover;
+  width: 51px;
+}
+
+.ktprushapp .path-28 {
+  height: 11px;
+  margin-left: 0.29px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 99px;
+}
+
+.ktprushapp .path-29 {
+  height: 9px;
+  margin-left: 0.17px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 44px;
+}
+
+.ktprushapp .rectangle-53 {
+  height: 18px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.ktprushapp .line-5 {
+  align-self: center;
+  height: 1px;
+  margin-right: 1.33px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 330px;
+}
+
+.ktprushapp .overlap-group-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 82px;
+  margin-left: 1px;
+  margin-top: 9px;
+  min-width: 340px;
+  padding: 0 16px;
+}
+
+.ktprushapp .flex-col-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 1.87px;
+  min-height: 45px;
+  width: 117px;
+}
+
+.ktprushapp .path-30 {
+  height: 7px;
+  object-fit: cover;
+  width: 117px;
+}
+
+.ktprushapp .flex-row-7 {
+  align-items: center;
+  display: flex;
+  margin-left: 0.81px;
+  margin-top: 5px;
+  min-width: 96px;
+}
+
+.ktprushapp .path-31 {
+  height: 15px;
+  margin-top: 0.45px;
+  object-fit: cover;
+  width: 71px;
+}
+
+.ktprushapp .rectangle-54 {
+  height: 18px;
+  margin-left: 7px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.ktprushapp .path-3-1 {
+  height: 11px;
+  margin-left: 0.37px;
+  margin-top: 4px;
+  object-fit: cover;
+  width: 92px;
+}
+
+.ktprushapp .line {
+  height: 1px;
+  margin-left: 5.0px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 330px;
+}
+
+.ktprushapp .flex-col-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 2.13px;
+  min-height: 45px;
+  width: 127px;
+}
+
+.ktprushapp .flex-row-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 31px;
+  min-width: 121px;
+}
+
+.ktprushapp .path-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 26px;
+  width: 95px;
+}
+
+.ktprushapp .path-33 {
+  height: 7px;
+  object-fit: cover;
+  width: 84px;
+}
+
+.ktprushapp .path-34 {
+  height: 12px;
+  margin-left: 0.46px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 95px;
+}
+
+.ktprushapp .rectangle-5 {
+  align-self: flex-end;
+  height: 18px;
+  margin-left: 7px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.ktprushapp .path-35 {
+  height: 11px;
+  margin-left: 0.69px;
+  margin-top: 4px;
+  object-fit: cover;
+  width: 126px;
+}
+
+.ktprushapp .flex-col-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 1.87px;
+  min-height: 45px;
+  width: 172px;
+}
+
+.ktprushapp .path-36 {
+  height: 7px;
+  object-fit: cover;
+  width: 172px;
+}
+
+.ktprushapp .flex-row-9 {
+  align-items: center;
+  display: flex;
+  margin-left: 0.81px;
+  margin-top: 5px;
+  min-width: 127px;
+}
+
+.ktprushapp .path-37 {
+  height: 11px;
+  margin-bottom: 2.09px;
+  object-fit: cover;
+  width: 101px;
+}
+
+.ktprushapp .rectangle-56 {
+  height: 18px;
+  margin-left: 8px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.ktprushapp .overlap-group6-1 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 82px;
+  margin-top: 11px;
+  position: relative;
+  width: 340px;
+}
+
+.ktprushapp .rectangle-4 {
+  height: 50px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 50px;
+}
+
+.ktprushapp .path-6 {
+  height: 7px;
+  left: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 154px;
+}
+
+.ktprushapp .path-4-1 {
+  height: 12px;
+  left: 75px;
+  object-fit: cover;
+  position: absolute;
+  top: 34px;
+  width: 98px;
+}
+
+.ktprushapp .path-4-2 {
+  height: 11px;
+  left: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 92px;
+}
+
+.ktprushapp .rectangle-45 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 340px;
+}
+
+.ktprushapp .rectangle-57 {
+  height: 18px;
+  left: 181px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 18px;
+}
+
+.ktprushapp .line-9 {
+  height: 1px;
+  margin-left: 4.0px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 330px;
+}
+
+.ktprushapp .overlap-group-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  margin-top: 13px;
+  min-height: 82px;
+  padding: 0 3.0px;
+  width: 340px;
+}
+
+.ktprushapp .flex-row-10 {
+  align-items: center;
+  display: flex;
+  margin-left: 13.0px;
+  margin-top: 16px;
+  min-width: 182px;
+}
+
+.ktprushapp .path-container-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 1.87px;
+  min-height: 45px;
+  width: 97px;
+}
+
+.ktprushapp .path-45 {
+  height: 7px;
+  object-fit: cover;
+  width: 95px;
+}
+
+.ktprushapp .path-46 {
+  height: 15px;
+  margin-left: 0.09px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 97px;
+}
+
+.ktprushapp .path-47 {
+  height: 11px;
+  margin-left: 0.37px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 92px;
+}
+
+.ktprushapp .rectangle-58 {
+  height: 18px;
+  margin-left: 9px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.ktprushapp .line-10 {
+  height: 1px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 330px;
+}
+
+.ktprushapp .flex-row-11 {
+  align-items: center;
+  display: flex;
+  margin-left: 13.0px;
+  margin-top: 16px;
+  min-width: 200px;
+}
+
+.ktprushapp .flex-col-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 2.13px;
+  min-height: 45px;
+  width: 142px;
+}
+
+.ktprushapp .flex-row-12 {
+  align-items: flex-start;
+  display: flex;
+  height: 30px;
+  min-width: 142px;
+}
+
+.ktprushapp .path-container-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 29px;
+  width: 117px;
+}
+
+.ktprushapp .path-48 {
+  height: 7px;
+  object-fit: cover;
+  width: 91px;
+}
+
+.ktprushapp .path-49 {
+  height: 14px;
+  margin-left: 0.12px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 116px;
+}
+
+.ktprushapp .path-50 {
+  height: 11px;
+  margin-left: 0.69px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 126px;
+}
+
+.ktprushapp .overlap-group-5 {
+  align-items: flex-start;
+  background-image: url(../img/line-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  min-width: 330px;
+}
+
+.ktprushapp .line-1-1 {
+  height: 1px;
+  object-fit: cover;
+  width: 330px;
+}
+
+.ktprushapp .flex-row-13 {
+  align-items: center;
+  display: flex;
+  margin-left: 17.0px;
+  margin-top: 29px;
+  min-width: 173px;
+}
+
+.ktprushapp .path-container-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.06px;
+  margin-left: 8px;
+  min-height: 43px;
+  width: 88px;
+}
+
+.ktprushapp .path-51 {
+  height: 7px;
+  object-fit: cover;
+  width: 70px;
+}
+
+.ktprushapp .path-52 {
+  height: 12px;
+  margin-left: 0.81px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 87px;
+}
+
+.ktprushapp .path-53 {
+  height: 9px;
+  margin-left: 0.69px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 44px;
+}
+
+.ktprushapp .rectangle-60 {
+  height: 18px;
+  margin-bottom: 2.01px;
+  margin-left: 9px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.ktprushapp .overlap-group9 {
+  align-items: flex-start;
+  background-image: url(../img/line-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-left: 4.0px;
+  margin-top: 15px;
+  min-width: 330px;
+}
+
+.ktprushapp .flex-row-14 {
+  align-items: center;
+  display: flex;
+  margin-left: 19.33px;
+  margin-top: 29px;
+  min-width: 186px;
+}
+
+.ktprushapp .path-container-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 1.87px;
+  min-height: 45px;
+  width: 128px;
+}
+
+.ktprushapp .path-54 {
+  height: 7px;
+  object-fit: cover;
+  width: 128px;
+}
+
+.ktprushapp .path-55 {
+  height: 12px;
+  margin-left: 0.09px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 80px;
+}
+
+.ktprushapp .path-56 {
+  height: 11px;
+  margin-left: 0.37px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 92px;
+}
+
+.ktprushapp .line-15 {
+  align-self: center;
+  height: 1px;
+  margin-right: 2.99px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 330px;
+}
+
+.ktprushapp .group-24 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -173.75px;
+  margin-top: 61px;
+  min-height: 319px;
+  width: 2110px;
+}
+
+.ktprushapp .flex-col-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 138px;
+  width: 2114px;
+}
+
+.ktprushapp .line-1-2 {
+  height: 4px;
+  object-fit: cover;
+  width: 2114px;
+}
+
+.ktprushapp .flex-row-15 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 285.75px;
+  margin-top: 44px;
+  min-width: 360px;
+}
+
+.ktprushapp .navigate {
+  letter-spacing: -1.52px;
+  line-height: 38px;
+  min-height: 48px;
+  text-align: right;
+  width: 129px;
+}
+
+.ktprushapp .place {
+  letter-spacing: -1.52px;
+  line-height: 38px;
+  margin-left: 104px;
+  min-height: 48px;
+  text-align: right;
+  width: 127px;
+}
+
+.ktprushapp .flex-row-16 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 318.75px;
+  margin-top: 1px;
+  min-width: 450px;
+}
+
+.ktprushapp .component-5-16 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  width: 141px;
+}
+
+.ktprushapp .place-1 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: -2px;
+}
+
+.ktprushapp .washington-dc {
+  height: 32px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 100px;
+  white-space: nowrap;
+  width: 209px;
+}
+
+.ktprushapp .flex-row-17 {
+  align-items: flex-start;
+  display: flex;
+  height: 180px;
+  margin-left: 25.0px;
+  margin-top: 5px;
+  min-width: 1501px;
+}
+
+.ktprushapp .component-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 178px;
+  width: 176px;
+}
+
+.ktprushapp .component-6-16 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  width: 131px;
+}
+
+.ktprushapp .portfolio-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.ktprushapp .component-7-16 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 5px;
+  width: 146px;
+}
+
+.ktprushapp .artwork-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.ktprushapp .component-8-16 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 4px;
+  width: 174px;
+}
+
+.ktprushapp .resume-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.ktprushapp .component-9-16 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  margin-left: 2.0px;
+  margin-top: 5px;
+  width: 111px;
+}
+
+.ktprushapp .about-2 {
+  flex: 1;
+  height: 38px;
+  letter-spacing: -1.20px;
+  line-height: 30px;
+  margin-left: 13px;
+  margin-right: -2px;
+}
+
+.ktprushapp .email-golpariu-mich {
+  height: 98px;
+  letter-spacing: -1.20px;
+  line-height: 35px;
+  margin-left: 65px;
+  margin-top: 10.5px;
+  width: 362px;
+}
+
+.ktprushapp .golpari-abari-september-2022 {
+  align-self: flex-end;
+  height: 24px;
+  letter-spacing: -0.80px;
+  line-height: 20px;
+  margin-left: 634px;
+  white-space: nowrap;
+  width: 264px;
+}
