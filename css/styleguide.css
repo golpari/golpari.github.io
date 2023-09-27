@@ -91,3 +91,10 @@
   font-style: normal;
   font-weight: 400;
 }
+
+/*html {
+  zoom: 0.9; 
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9;
+}*/
