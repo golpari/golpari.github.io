@@ -23,40 +23,34 @@ body{
     line-height: 1.6;
 }
 
-/*header style*/
-#header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;
-}
-.container{
-    padding: 10px 5%;
-}
-
 /*navbar styling*/
+.navContainer{
+    z-index: 1; /*to keep the navbar on top of Artwork header text*/
+    padding: 0px 5%; 
+    position: sticky; /*to stick navbar at top of screen*/
+    top: 0;
+    background: var(--base-color); /*matches base page color so that it blends with background*/
+    width: 100%;
+}
 
-.flex {
-    display: flex;
-    border: 1px solid;
-  }
+
+nav{
+    display: flex;   
+    align-items: center;
+    flex-wrap: wrap;
+}
   
-  .a {
-    margin-right: 16px;
-  }
-  
-  .b {
+.spacer {
     flex: 1;
     min-width: 0;
     white-space: nowrap;
     overflow: hidden;
-  }
+}
   
-  .c {
+.navLinks {
     flex-shrink: 0;
     margin-left: 16px;
-  }
+}
 
 .logo{
     width: 140px;
@@ -90,6 +84,17 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+/*Header styling*/
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 5%;
+}
 .header-text{
     margin-top: 20%;
     font-size: 30px;
@@ -104,6 +109,11 @@ nav ul li a:hover::after{
     color: blue;
 }
 
+/*row portfolio style*/
+#rowPortfolio{
+    padding: 50px 0;
+    
+}
 /*portfolio style*/
 
 html{
