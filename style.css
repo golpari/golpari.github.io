@@ -4,6 +4,7 @@
     --base-color: rgb(22, 22, 22);
     --dark-color: DarkSalmon;
     --light-color: PapayaWhip;
+    --secondary-base: rgb(60,60,60);
     --gradient-color: 
 }
 
@@ -50,6 +51,11 @@ nav{
 
 .logo{
     width: 140px;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
 }
 
 .navLinks {
@@ -106,7 +112,7 @@ nav{
     color: var(--light-color);
     z-index: 1;
 
-    background: var(--base-color);
+    background: none;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -368,6 +374,72 @@ h1, h2, h3{
     .portfolio-grid > div:nth-child(6){
         grid-column: 1 / 3;
     }
+}
+
+/*css for small screens*/
+
+nav #menu{
+    display: none;
+}
+@media only screen and (max-width: 1000px)
+{
+    #header{
+        background-image: url(images/parispfp.jpg); /* CHANGE THIS*/   
+    }
+    .header-text{
+        font-size: 16px;
+        margin-top: 100%;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+
+    nav #menu{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav .navLinks{
+        background: var(--secondary-base);
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav .navLinks li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav .navIcons{
+
+        position: fixed;
+        bottom: 0;
+        padding-top: 90vh;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        margin: 0;
+        display: block;
+    }
+
+    .navIcons li{
+        margin: 10px 0px;
+    }
+
+    nav #menu {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    
 }
 
 
