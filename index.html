@@ -13,27 +13,34 @@
 <!--NavBar Section-->
 <div class="navContainer">
 	<nav>
-		<a href="index.html" class="logo"><img src="images/initials-square.png"></a>
+		<a href="#header" class="logo"><img src="images/initials-square.png"></a>
 		<div class="spacer"></div>
-		<ul class="navLinks">
-			<li><a href="#">Projects</a></li>
-			<li><a href="#">Ceramic Work</a></li>
-			<li><a href="#">Other</a></li>
-			<li><a href="#">About</a></li>
-			<i id="menu" class="fas fa-times"></i>
-			<li>
-				
-			</li>
-		</ul>
-		<ul class="navIcons">
-			<li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-			<li><a href="#"><i class="fas fa-envelope"></i></a></li>
-		</ul>
-		<i id="menu" class="fas fa-bars"></i>		
+		<div id="navItems">
+			<ul class="navLinks" id="sidemenu">
+				<li><a href="#rowPortfolio">Projects</a></li>
+				<li><a href="#portfolio">Ceramic Work</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+			<ul class="navIcons" id="sidemenuIcons">
+				<li><a href="#"><i class="fa-brands fa-github circleHighlight"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+				<li><a href="#"><i class="fas fa-envelope circleHighlight"></i></a></li>
+				<i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
+			</ul>
+		</div>
+		<i class="fas fa-bars menu circleHighlight" onclick="openMenu()"></i>		
 	</nav>
 </div>
 
+<script>
+	function openMenu(){
+		document.getElementById("navItems").style.right = "0";
+	}
+
+	function closeMenu(){
+		document.getElementById("navItems").style.right = "-200px";
+	}
+</script>
 	
 <!--Title Page Section-->
 <div id="header">

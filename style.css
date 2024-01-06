@@ -8,6 +8,10 @@
     --gradient-color: 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -41,7 +45,10 @@ nav{
     align-items: center;
     flex-wrap: wrap;
 }
-  
+
+#navItems{
+    display: flex;
+}
 .spacer {
     flex: 1;
     min-width: 0;
@@ -108,7 +115,7 @@ nav{
     font-size: 18px;
 }
 
-.navIcons li a i{
+.circleHighlight{
     color: var(--light-color);
     z-index: 1;
 
@@ -378,7 +385,7 @@ h1, h2, h3{
 
 /*css for small screens*/
 
-nav #menu{
+nav .menu{
     display: none;
 }
 @media only screen and (max-width: 1000px)
@@ -394,51 +401,61 @@ nav #menu{
         font-size: 30px;
     }
 
-    nav #menu{
-        display: block;
-        font-size: 25px;
+    nav{
+        display: flex;   
+        align-items: center;
+        flex-wrap: wrap;
     }
 
-    nav .navLinks{
+    .fa-bars{
+        right: 25px;
+    }
+
+    nav .menu{
+        display: block;
+        font-size: 25px;
+        z-index: 2;
+    }
+
+    #navItems{
         background: var(--secondary-base);
         position: fixed;
         top: 0;
-        right: 0;
+        right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
+        
+        z-index: 3;
+        transition: right 0.5s;
+
+        display: block;
     }
 
-    nav .navLinks li{
+
+    .navLinks li{
         display: block;
         margin: 25px;
-    }
-
-    nav .navIcons{
-
-        position: fixed;
-        bottom: 0;
-        padding-top: 90vh;
-        padding-bottom: 50px;
-        padding-left: 25px;
-        right: 0;
-        width: 200px;
-        height: 100vh;
-        margin: 0;
-        display: block;
+        position: relative;
     }
 
     .navIcons li{
-        margin: 10px 0px;
+        display: inline-block;
+        margin: 5px;
+        position: relative;
     }
 
-    nav #menu {
+    
+
+    nav .menu {
         position: absolute;
-        top: 25px;
-        left: 25px;
         cursor: pointer;
     }
 
+    .fa-times{
+        top: 25px;
+        left: 25px;
+    }
     
 }
 
