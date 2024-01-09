@@ -31,12 +31,11 @@ body{
 
 /*navbar styling*/
 .navContainer{
-    z-index: 1; /*to keep the navbar on top of Artwork header text*/
-    padding: 0px 5%; 
-    position: sticky; /*to stick navbar at top of screen*/
-    top: 0;
-    background: var(--base-color); /*matches base page color so that it blends with background*/
+    position: fixed;
     width: 100%;
+    background: var(--base-color); /*matches base page color so that it blends with background*/
+    display: inline;
+    padding-right: 10px;
 }
 
 
@@ -56,13 +55,23 @@ nav{
     overflow: hidden;
 }
 
+.navAndLogo{
+    width: 100%;
+    z-index: 1; /*to keep the navbar on top of Artwork header text*/
+    position: sticky; /*to stick navbar at top of screen*/
+    top: 0;
+}
+
 .logo{
     width: 140px;
+    position: absolute;
+    z-index: 2;
 }
 
 .logo img{
-    height: 40px;
-    width: 40px;
+    height: 140px;
+    width: 140px;
+    padding-top: 5px;
 }
 
 .navLinks {
@@ -148,7 +157,7 @@ nav{
     padding: 10px 5%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-top: 70vh;
     font-size: 30px;
 }
 
@@ -395,16 +404,24 @@ nav .menu{
     }
     .header-text{
         font-size: 16px;
-        margin-top: 100%;
+        margin-top: 70vh;
     }
     .header-text h1{
         font-size: 30px;
+    }    
+    
+    .navContainer{
+        position: absolute;
+        width: 100%;
+        background: var(--base-color);
+        display: block;
+        padding: 10px 0%;
     }
-
     nav{
-        display: flex;   
-        align-items: center;
+        display: inline-flex;
         flex-wrap: wrap;
+        padding: 10px 0%;
+        align-items: center;
     }
 
     .fa-bars{
