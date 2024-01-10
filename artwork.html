@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<script src="https://kit.fontawesome.com/f30a622632.js" crossorigin="anonymous"></script>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Golpari Abari</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--NavBar Section-->
+<div class="navAndLogo">
+<a href="index.html" class="logo"><img src="images/initials-square.png"></a>
+<div class="navContainer">
+	<nav>
+		<div class="spacer"></div>
+		<div id="navItems">
+			<ul class="navLinks" id="sidemenu">
+				<li><a href="index.html#rowPortfolio">Projects</a></li>
+				<li><a href="index.html#portfolio">Artwork</a></li>
+				<li><a href="index.html#about">About</a></li>
+			</ul>
+			<ul class="navIcons" id="sidemenuIcons">
+				<li><a href="https://github.com/golpari" target="_blank"><i class="fa-brands fa-github circleHighlight"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+				<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a></li>
+				<i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
+			</ul>
+		</div>
+		<i class="fas fa-bars menu circleHighlight" onclick="openMenu()"></i>		
+	</nav>
+</div>
+</div>
+
+<script>
+	function openMenu(){
+		document.getElementById("navItems").style.right = "0";
+	}
+
+	function closeMenu(){
+		document.getElementById("navItems").style.right = "-200px";
+	}
+</script>
+
+<!--main content section-->
+<main>
+  	<!-- Artwork Section (can be used as any general portfolio) -->
+  	<section id = "portfolio" class = "vh-100">
+		<div class = "container">
+			<div class = "portfolio-content">
+				<div class = "title">
+					<h2>Artwork</h2>
+				</div>
+
+				<div class = "portfolio-grid grid">
+					<div><img src = "images/switchswatch.png"></div>
+					<div><img src = "images/chasing.PNG"></div>
+					<div><img src = "images/groovesLogo.jpeg"></div>
+					<div><img src = "images/parispfp.jpg"></div>
+					<div><img src = "images/switchswatch.png"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- contact section -->
+	<hr>
+	<section id = "contact">
+		<div class="container">
+			<div class = "title">
+				<h2>Contact</h2>
+			</div>
+			<div class="contact-info">
+				<p class = "lead">golpari.tfa@gmail.com</p>
+				<ul class="navIcons" id="sidemenuIcons">
+					<li><a href="https://github.com/golpari" target="_blank"><i class="fa-brands fa-github circleHighlight"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+					<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</main>
+</body>
+</html>

@@ -5,8 +5,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Golpari's Portfolio Website</title>
+	<title>Golpari Abari</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Salsa&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -19,13 +22,13 @@
 		<div id="navItems">
 			<ul class="navLinks" id="sidemenu">
 				<li><a href="#rowPortfolio">Projects</a></li>
-				<li><a href="#portfolio">Ceramic Work</a></li>
+				<li><a href="#portfolio">Artwork</a></li>
 				<li><a href="#about">About</a></li>
 			</ul>
 			<ul class="navIcons" id="sidemenuIcons">
-				<li><a href="#"><i class="fa-brands fa-github circleHighlight"></i></a></li>
-				<li><a href="#"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
-				<li><a href="#"><i class="fas fa-envelope circleHighlight"></i></a></li>
+				<li><a href="https://github.com/golpari" target="_blank"><i class="fa-brands fa-github circleHighlight"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+				<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a></li>
 				<i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
 			</ul>
 		</div>
@@ -48,8 +51,8 @@
 <div id="header">
 	<div class="container">
 		<div class="header-text">
-			<p>subtitle</p>
-			<h1><span>Golpari</span> Abari</h1>
+			<p>A software engineer & game developer <br> that loves people, living, and having fun.</p>
+			<h1>Golpari Abari</h1>
 		</div>
 	</div>
 </div>
@@ -62,7 +65,9 @@
 			<div class = "title">
 				<h2>Projects</h2>
 			</div>
-			<div class="work-list">
+			<!--change this class to 'work-list' if you want to go back to the old row formatting-->
+			<!-- SPECIFICALLY USE IMAGES ALL W THE SAME ASPECT RATIO!! -->
+			<div class="portfolio-grid work-list">
 				<div class="work">
 					<img src="images/switchswatch.png">	
 					<div class="layer">
@@ -87,9 +92,6 @@
 						<a href="#"><i class="fas fa-external-link-alt"></i></a>
 					</div>					
 				</div>
-			</div>
-			<!--second row of projects list-->
-			<div class="work-list">
 				<div class="work">
 					<img src="images/chasing.PNG">	
 					<div class="layer">
@@ -127,12 +129,13 @@
 				</div>
 
 				<div class = "portfolio-grid grid">
-					<div><img src = "images/switchswatch.png"></div>
-					<div><img src = "images/chasing.PNG"></div>
-					<div><img src = "images/groovesLogo.jpeg"></div>
-					<div><img src = "images/parispfp.jpg"></div>
-					<div><img src = "images/switchswatch.png"></div>
+					<div><img src = "images/sitting-figures.jpg"></div>
+					<div><img src = "images/red-spiky.jpg"></div>
+					<div><img src = "images/wedding-cups.jpg"></div>
+					<div><img src = "images/blue-bulb.jpg"></div>
+					<div><img src = "images/held-figures.jpg"></div>
 				</div>
+				<a href="artwork.html" class="button">See All</a>
 			</div>
 		</div>
 	</section>
@@ -148,9 +151,28 @@
 					<div class = "title">
 						<h2>About Me</h2>
 					</div>
-					<p class = "lead">Golp.</p>
-					<p class = "lead">Golp.</p>
+					<p class = "lead">Hi! I'm Golpari (Gol for short). I'm currently a Senior at the University of Michigan studying Computer Science, with a minor in Art & Design. I love playing games, and I love making them too. Some of my favorites are Gris, Slime Rancher, and Ori & the Will of the Wisps. </p>
+					<p class = "lead">My hobbies include rugby, ceramics, reading, cooking, and painting. I love to learn new things every day.</p>
+					<p class="lead">Tell me about something you love!</p>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- contact section -->
+	<hr>
+	<section id = "contact">
+		<div class="container">
+			<div class = "title">
+				<h2>Contact</h2>
+			</div>
+			<div class="contact-info">
+				<p class = "lead">golpari.tfa@gmail.com</p>
+				<ul class="navIcons" id="sidemenuIcons">
+					<li><a href="https://github.com/golpari" target="_blank"><i class="fa-brands fa-github circleHighlight"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+					<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</section>

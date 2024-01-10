@@ -2,7 +2,8 @@
 :root{
     --transition: all 300ms ease-in-out;
     --base-color: rgb(22, 22, 22);
-    --dark-color: DarkSalmon;
+    --base-color-faded: rgba(22, 22, 22, 0.5);
+    --dark-color: rgba(85, 130, 7, 0.844);
     --light-color: PapayaWhip;
     --secondary-base: rgb(60,60,60);
     --gradient-color: 
@@ -20,20 +21,32 @@ html{
     outline: 0;
 }
 
+h1, h2{
+    font-family: 'Salsa', cursive, sans-serif;
+}
+
+p{
+    font-family: "Rosarivo", 'Times New Roman', Times, serif;
+}
+
 body{
     background: var(--base-color);
     color: var(--light-color);
 
+}
+
+main{
     /*from portfolio styling*/
-    font-size: 1.6rem;
-    line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 
 /*navbar styling*/
 .navContainer{
     position: fixed;
     width: 100%;
-    background: var(--base-color); /*matches base page color so that it blends with background*/
+
+    background: linear-gradient(var(--base-color) 30%, 80%, rgba(0,0,0,0)); /*matches base page color so that it blends with background*/
     display: inline;
     padding-right: 10px;
 }
@@ -56,6 +69,10 @@ nav{
 }
 
 .navAndLogo{
+    /*from portfolio styling*/
+    font-size: 1.6rem;
+    line-height: 1.2;
+
     width: 100%;
     z-index: 1; /*to keep the navbar on top of Artwork header text*/
     position: sticky; /*to stick navbar at top of screen*/
@@ -157,24 +174,18 @@ nav{
     padding: 10px 5%;
 }
 .header-text{
-    margin-top: 70vh;
+    margin-top: 65vh;
     font-size: 30px;
 }
-
 .header-text h1{
-    font-size: 60px;
-    margin-top:20px;
+    font-size: 80px;
 }
 
 .header-text h1 span{
-    color: blue;
+   /* color: blue;*/
 }
 
 /*row portfolio style*/
-#rowPortfolio{
-    padding: 50px 0;
-}
-
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -201,7 +212,7 @@ nav{
     height: 0; /*would be 100% if you wanted to just always show the top layer*/
     background: linear-gradient(rgba(0,0,0,0.5), var(--dark-color));
     /*border-radius: 10px;*/ /*for rounded edges*/
-    
+
     position: absolute;
     left:0;
     bottom: 0;
@@ -268,15 +279,19 @@ nav{
 }
 
 /*general style*/
-html{
-    font-size: 10px;
-    scroll-behavior: smooth;
+section{
+    padding: 50px 0;
+    padding: 30px 2%;
 }
-
-
+hr{
+    width: 90%; /*goes with margin, 90+5+5 = 100*/
+    margin: 0 5%;
+    border: 0.1px solid var(--light-color);
+}
 a{
     text-decoration: none;
     color: var(--dark-color);
+    font-family: "Rosarivo", 'Times New Roman', Times, serif;
 }
 img{
     width: 100%;
@@ -303,25 +318,31 @@ h1, h2, h3{
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
 }
-.lead{
-    opacity: 0.8;
-    padding: 1rem 0;
-    font-size: 1.7rem;
-    font-weight: 300;
-    line-height: 1.8;
-}
 
 /* about */
+.lead{
+    opacity: 0.8;
+    padding: 0.8rem 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
 .about{
     padding: 50px 0;
 }
+.about p{
+    font-size: 18px;
+}
 .about-left{
     margin-bottom: 4rem;
-    height: 480px;
+    display: flex;
+    align-self: center;
+    align-items: center;
     overflow: hidden;
 }
 
-.title{
+
+.about .title{
     margin-bottom: 5rem;
 }
 .title h2{
@@ -334,18 +355,40 @@ h1, h2, h3{
 .title h2::after{
     position: absolute;
     content: "";
-    top: 120%;
+    top: 110%;
     left: 0;
     width: 70px;
     height: 4px;
     background-color: var(--dark-color);
 }
 
+/*contact style*/
+#contact .title h2{
+    font-size: 45px;
+}
+
+#contact .contact-info{
+    padding: 10px 2%;
+}
+
+#contact .navIcons {
+    margin-left: 0px;
+}
+#contact p{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#contact .navIcons li{
+    padding-left: 0;
+    margin-left: 0;
+}
+
 /* vertical portfolio style */
-.portfolio-grid > div{
+#portfolio .portfolio-grid > div{
     transition: var(--transition);
 }
-.portfolio-grid > div:hover{
+#portfolio .portfolio-grid > div:hover{
     transform: scale(0.9);
 }
 
@@ -473,7 +516,49 @@ nav .menu{
         top: 25px;
         left: 25px;
     }
+
+    /*about restyle for small screen*/
+    .lead{
+        opacity: 0.8;
+        padding: 0.8rem 0;
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+    .about{
+        padding: 5px 0;
+    }
+    .about p{
+        font-size: 18px;
+    }
+    
+    .about .title{
+        margin-bottom: 5px;
+    }
+    .title h2{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 600;
+        position: relative;
+    }
+    
+    .title h2::after{
+        position: absolute;
+        content: "";
+        top: 110%;
+        left: 0;
+        width: 70px;
+        height: 4px;
+        background-color: var(--dark-color);
+    }
     
 }
 
-
+@media only screen and (max-width: 768px){
+    .about-left{
+        margin-bottom: 5px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
