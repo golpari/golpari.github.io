@@ -17,7 +17,7 @@ html{
 *{
     margin:0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rosarivo', cursive, sans-serif;
     box-sizing: border-box;
     outline: 0;
 }
@@ -26,7 +26,7 @@ h1, h2{
     font-family: 'Salsa', cursive, sans-serif;
 }
 
-p{
+p, h3{
     font-family: "Rosarivo", 'Times New Roman', Times, serif;
 }
 
@@ -191,13 +191,21 @@ nav{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.work-list-last{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
 }
 
 .work{
     /*border-radius: 10px;*/ /*for rounded edges*/
     position: relative;
     overflow: hidden;
+    max-width: 50vw;
+
 }
 
 .work img{
@@ -313,7 +321,8 @@ section{
 }
 hr{
     width: 90%; /*goes with margin, 90+5+5 = 100*/
-    margin: 0 5%;
+    margin: 0px 5%;
+    margin-top: 50px;
     border: 0.1px solid var(--light-color);
 }
 a{
@@ -359,7 +368,6 @@ h1, h2, h3{
     padding-top: 50px;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 50px;
 }
 .about p{
     font-size: 18px;
@@ -372,10 +380,11 @@ h1, h2, h3{
     overflow: hidden;
 }
 
-
-.about .title{
-    margin-bottom: 5rem;
+.title{
+    margin-bottom: 50px;
 }
+
+
 .title h2{
     text-transform: uppercase;
     letter-spacing: 3px;
