@@ -13,7 +13,6 @@ ul {
 .image-gallery>li {
     flex: 1 1 auto;
     /* or flex: auto; */
-    height: 300px;
     cursor: pointer;
     position: relative;
 
@@ -28,10 +27,14 @@ ul {
 .image-gallery li img {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 320px;
     vertical-align: middle;
 }
 
-#portfolio .image-gallery > li:hover{
+#portfolio .image-gallery > li img{
+    transition: var(--transition);
+}
+
+#portfolio .image-gallery > li img:hover{
     transform: scale(0.9);
 }

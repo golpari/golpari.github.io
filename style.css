@@ -260,7 +260,7 @@ nav{
 
 .button{
     display: block;
-    margin: 50px auto;
+    margin: auto auto;
     margin-bottom: 0;
     width: fit-content;
     outline: 2px solid var(--dark-color);
@@ -270,6 +270,8 @@ nav{
     text-decoration: none;
     color: var(--dark-color);
     background-color: var(--base-color);
+
+    align-items:end;
 
     transition: background-color 0.5s;
 }
@@ -330,7 +332,10 @@ h1, h2, h3{
     line-height: 1.6;
 }
 .about{
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 50px;
 }
 .about p{
     font-size: 18px;
