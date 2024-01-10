@@ -3,7 +3,8 @@
     --transition: all 300ms ease-in-out;
     --base-color: rgb(22, 22, 22);
     --base-color-faded: rgba(22, 22, 22, 0.5);
-    --dark-color: rgba(85, 130, 7, 0.844);
+    --dark-color: rgba(85, 130, 7, 0.8);
+    --dark-accent: rgba(33, 51, 1, 0.8);
     --light-color: PapayaWhip;
     --secondary-base: rgb(60,60,60);
     --gradient-color: 
@@ -200,6 +201,7 @@ nav{
 }
 
 .work img{
+    object-fit:cover;
     width: 100%;
     /*border-radius: 10px;*/ /*for rounded edges*/
     display: block;
@@ -210,7 +212,7 @@ nav{
 .layer{
     width: 100%;
     height: 0; /*would be 100% if you wanted to just always show the top layer*/
-    background: linear-gradient(rgba(0,0,0,0.5), var(--dark-color));
+    background: linear-gradient(var(--dark-accent), 20%, rgb(0,0,0, 1));
     /*border-radius: 10px;*/ /*for rounded edges*/
 
     position: absolute;
@@ -230,18 +232,40 @@ nav{
     transition: height 0.5s;
 }
 
+#work .layer .circleHighlight{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#projects .layer .circleHighlight{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#work .layer i{
+    width: 40px;
+    height: 40px;
+}
 .layer h3{
     font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    color: var(--light-color);
+}
+
+.layer p{
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 .layer a{
     margin-top: 20px;
-    color: black;
+    margin-bottom: 20px;
     text-decoration: none;
-    font-size: 18px;
     line-height: 60px;
-
     /* for circle outline on icon*/
     /*background: white;
     width: 60px;
