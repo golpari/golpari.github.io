@@ -261,6 +261,7 @@ nav{
 .button{
     display: block;
     margin: 50px auto;
+    margin-bottom: 0;
     width: fit-content;
     outline: 2px solid var(--dark-color);
     padding: 14px 50px;
@@ -280,8 +281,9 @@ nav{
 
 /*general style*/
 section{
-    padding: 50px 0;
-    padding: 30px 2%;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 hr{
     width: 90%; /*goes with margin, 90+5+5 = 100*/
