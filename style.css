@@ -166,7 +166,7 @@ nav{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/parispfp.jpg);
+    background-image: url(images/leaves-standin.jpg);
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -364,6 +364,9 @@ h1, h2, h3{
     font-weight: 300;
     line-height: 1.6;
 }
+.lead a{
+    color: var(--light-color);
+}
 .about{
     padding-top: 50px;
     padding-left: 2%;
@@ -483,7 +486,7 @@ nav .menu{
 @media only screen and (max-width: 1000px)
 {
     #header{
-        background-image: url(images/parispfp.jpg); /* CHANGE THIS*/   
+        background-image: url(images/leaves-standin.jpg); /* CHANGE THIS*/   
     }
     .header-text{
         font-size: 16px;
