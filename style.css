@@ -43,20 +43,30 @@ main{
 }
 
 /*navbar styling*/
-.navContainer{
+.navAndLogo {
+    /*from portfolio styling*/
+    font-size: 1.6rem;
+    line-height: 1.2;
+    width: 100%;
+    z-index: 1; /*to keep the navbar on top of Artwork header text*/
+    position: sticky; /*to stick navbar at top of screen*/
+    top: 0;
+}
+
+.navContainer {
     position: fixed;
     width: 100%;
-
     background: linear-gradient(var(--base-color) 30%, 80%, rgba(0,0,0,0)); /*matches base page color so that it blends with background*/
     display: inline;
-    padding-right: 10px;
+    padding-right: 20px; /*how far the navItems go to the right edge of the screen*/
 }
 
 
-nav{
-    display: flex;   
+nav {
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 2%; /*control height from top of screen*/
 }
 
 #navItems{
@@ -69,21 +79,13 @@ nav{
     overflow: hidden;
 }
 
-.navAndLogo{
-    /*from portfolio styling*/
-    font-size: 1.6rem;
-    line-height: 1.2;
 
-    width: 100%;
-    z-index: 1; /*to keep the navbar on top of Artwork header text*/
-    position: sticky; /*to stick navbar at top of screen*/
-    top: 0;
-}
 
-.logo{
+.logo {
     width: 140px;
     position: absolute;
     z-index: 2;
+    padding-top: 2%; /*control height from top of screen*/
 }
 
 .logo img{
@@ -385,6 +387,7 @@ h1, h2, h3{
 
 .title{
     margin-bottom: 50px;
+    padding-top: 5%;
 }
 
 
