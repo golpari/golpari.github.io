@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.content {
+    height: 200vh; /* Twice the height of the viewport */
+    position: relative;
+}
+
+.pinned-image, .pinned-text {
+    position: fixed;
+    bottom: 10px;
+    pointer-events: none; /* Allow scrolling through these elements */
+}
+
+.pinned-image {
+    left: 10px;
+}
+
+.pinned-text {
+    left: 180px;
+}

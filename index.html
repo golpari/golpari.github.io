@@ -48,15 +48,37 @@
 		document.getElementById("navItems").style.right = "-200px";
 	}
 </script>
+
+<!--script to move the header background image around-->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const h1 = document.querySelector(".header-text h1");
+        let angle = 0;
+        const radius = 50; // Change this value to increase or decrease the circular motion radius
+        const speed = 0.003; // Change this value to increase or decrease the speed of the motion
+
+        function animate() {
+            angle += speed;
+            const x = Math.cos(angle) * radius;
+            const y = Math.sin(angle) * radius;
+            h1.style.backgroundPosition = `${x}% ${y}%`;
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    });
+</script>
 	
 <!--Title Page Section-->
+<div class="wrapper">
 <div id="header">
-	<div class="container">
+	<div class=""> <!--used to say class = "container"-->
 		<div class="header-text">
-			<p>A software engineer & game developer <br> that loves people, living, and having fun.</p>
 			<h1>Golpari Abari</h1>
+			<p>A software engineer & game developer <br> that loves people, living, and having fun.</p>
 		</div>
 	</div>
+</div>
 </div>
 
 <!--main content section-->

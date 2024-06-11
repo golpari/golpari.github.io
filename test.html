@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            height: 200vh; /* Ensuring that the body has enough height to enable scrolling */
+        }
+
+        .parallax {
+            position: relative;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            perspective: 1px;
+        }
+
+        .parallax-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            transform: translateZ(0);
+        }
+
+        .parallax-layer img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            height: 100vh;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="parallax-layer" data-speed="2">
+            <img src="images/red-spiky.jpg" alt="Background Layer">
+        </div>
+        <div class="parallax-layer" data-speed="3">
+            <img src="testimages/foreground.png" alt="Midground Layer">
+        </div>
+        <div class="parallax-layer" data-speed="5">
+            <img src="testimages/foreground.png" alt="Foreground Layer">
+        </div>
+    </div>
+
+    <div class="content">
+        Scroll down to see the parallax effect!
+    </div>
+
+    <script>
+        document.addEventListener("scroll", function () {
+            const layers = document.querySelectorAll('.parallax-layer');
+            const scrollTop = window.pageYOffset;
+
+            layers.forEach(layer => {
+                const speed = layer.getAttribute('data-speed');
+                const yPos = -(scrollTop * speed / 10);
+                layer.style.transform = `translate3d(0px, ${yPos}px, 0px)`;
+            });
+        });
+    </script>
+</body>
+
+</html>
