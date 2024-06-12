@@ -314,12 +314,10 @@ nav {
 
 .layer p{
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .layer a{
-    margin-top: 20px;
-    margin-bottom: 20px;
     text-decoration: none;
     line-height: 60px;
     /* for circle outline on icon*/
