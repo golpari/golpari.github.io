@@ -74,12 +74,12 @@
 		});
 	</script>
 
-<!--script for parallax scrolling on the header area-->
+	<!--script for parallax scrolling on the header area-->
 	<script>
 		window.addEventListener('scroll', function () {
 			let scrollTop = window.scrollY;
-			document.getElementById('parallax-one').style.transform = 'translateY(' + scrollTop * 0.5 + 'px)';
-			document.getElementById('parallax-two').style.transform = 'translateY(' + scrollTop * 0.3 + 'px)';
+			document.getElementById('parallax-one').style.transform = 'translateY(' + scrollTop * 0.8 + 'px)';
+			document.getElementById('parallax-two').style.transform = 'translateY(' + scrollTop * 0.5 + 'px)';
 			document.getElementById('parallax-three').style.transform = 'translateY(' + scrollTop * 0.2 + 'px)';
 		});
 	</script>
@@ -97,6 +97,7 @@
 			<div class="header-text">
 				<h1>Golpari Abari</h1>
 				<p>A software engineer & game developer<br>that loves people, living, and having fun.</p>
+				<p class="mobile-only">Mobile support coming soon!</p>
 			</div>
 		</div>
 	</div>

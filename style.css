@@ -497,6 +497,9 @@ h1, h2, h3{
     .title h2{
         font-size: 4rem;
     }
+    .mobile-only{
+        content: 'Mobile support coming soon!'
+    }
     .portfolio-grid{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -536,14 +539,22 @@ h1, h2, h3{
 }
 
 /*css for small screens*/
-
+.mobile-only{
+    visibility: hidden;
+}
 nav .menu{
     display: none;
 }
 @media only screen and (max-width: 1000px)
 {
     #header{
-           
+    }
+
+    .mobile-only{
+        visibility: visible;
+        text-decoration: underline var(--dark-color);
+        color: var(--dark-color);
+        font-weight: bold;
     }
     .header-text{
         font-size: 16px;
