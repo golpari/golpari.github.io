@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <script src="https://kit.fontawesome.com/f30a622632.js" crossorigin="anonymous"></script>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,234 +13,276 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Salsa&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!--NavBar Section-->
-<div class="navAndLogo">
-<a href="#header" class="logo"><img src="images/initials-square.png"></a>
-<div class="navContainer">
-	<nav>
-		<div class="spacer"></div>
-		<div id="navItems">
-			<ul class="navLinks" id="sidemenu">
-				<li><a href="#work">Work</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#portfolio">Art</a></li>
-				<li><a href="#about">About</a></li>
-			</ul>
-			<ul class="navIcons" id="sidemenuIcons">
-				<li><a href="https://github.com/golpari" target="_blank"><i class="fa-brands fa-github circleHighlight"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
-				<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a></li>
-				<i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
-			</ul>
-		</div>
-		<i class="fas fa-bars menu circleHighlight" onclick="openMenu()"></i>		
-	</nav>
-</div>
-</div>
-
-<script>
-	function openMenu(){
-		document.getElementById("navItems").style.right = "0";
-	}
-
-	function closeMenu(){
-		document.getElementById("navItems").style.right = "-200px";
-	}
-</script>
-
-<!--script to move the header background image around-->
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const h1 = document.querySelector(".header-text h1");
-        let angle = 0;
-        const radius = 50; // Change this value to increase or decrease the circular motion radius
-        const speed = 0.003; // Change this value to increase or decrease the speed of the motion
-
-        function animate() {
-            angle += speed;
-            const x = Math.cos(angle) * radius;
-            const y = Math.sin(angle) * radius;
-            h1.style.backgroundPosition = `${x}% ${y}%`;
-            requestAnimationFrame(animate);
-        }
-
-        animate();
-    });
-</script>
-	
-<!--Title Page Section-->
-<div class="wrapper">
-<div id="header">
-	<div class=""> <!--used to say class = "container"-->
-		<div class="header-text">
-			<h1>Golpari Abari</h1>
-			<p>A software engineer & game developer <br> that loves people, living, and having fun.</p>
+	<!--NavBar Section-->
+	<div class="navAndLogo">
+		<a href="#header" class="logo"><img src="images/initials-square.png"></a>
+		<div class="navContainer">
+			<nav>
+				<div class="spacer"></div>
+				<div id="navItems">
+					<ul class="navLinks" id="sidemenu">
+						<li><a href="#work">Work</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#portfolio">Art</a></li>
+						<li><a href="#about">About</a></li>
+					</ul>
+					<ul class="navIcons" id="sidemenuIcons">
+						<li><a href="https://github.com/golpari" target="_blank"><i
+									class="fa-brands fa-github circleHighlight"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i
+									class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+						<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a>
+						</li>
+						<i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
+					</ul>
+				</div>
+				<i class="fas fa-bars menu circleHighlight" onclick="openMenu()"></i>
+			</nav>
 		</div>
 	</div>
-</div>
-</div>
 
-<!--main content section-->
-<main>
-	<!--work section-->
-	<section id="work">
-		<div class="container">
-			<div class = "title">
-				<h2>Work</h2>
+	<script>
+		function openMenu() {
+			document.getElementById("navItems").style.right = "0";
+		}
+
+		function closeMenu() {
+			document.getElementById("navItems").style.right = "-200px";
+		}
+	</script>
+
+	<!--script to move the header text's background image around-->
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const h1 = document.querySelector(".header-text h1");
+			let angle = 0;
+			const radius = 50; // Change this value to increase or decrease the circular motion radius
+			const speed = 0.003; // Change this value to increase or decrease the speed of the motion
+
+			function animate() {
+				angle += speed;
+				const x = Math.cos(angle) * radius;
+				const y = Math.sin(angle) * radius;
+				h1.style.backgroundPosition = `${x}% ${y}%`;
+				requestAnimationFrame(animate);
+			}
+
+			animate();
+		});
+	</script>
+
+<!--script for parallax scrolling on the header area-->
+	<script>
+		window.addEventListener('scroll', function () {
+			let scrollTop = window.scrollY;
+			document.getElementById('parallax-one').style.transform = 'translateY(' + scrollTop * 0.5 + 'px)';
+			document.getElementById('parallax-two').style.transform = 'translateY(' + scrollTop * 0.3 + 'px)';
+			document.getElementById('parallax-three').style.transform = 'translateY(' + scrollTop * 0.2 + 'px)';
+		});
+	</script>
+
+
+	<!--Title Page Section-->
+	<!--Title Page Section-->
+	<div class="wrapper">
+		<div id="header">
+			<div class="parallax-container">
+				<div class="parallax-layer" id="parallax-one"></div>
+				<div class="parallax-layer" id="parallax-two"></div>
+				<div class="parallax-layer" id="parallax-three"></div>
 			</div>
-			<!--change this class to 'work-list' if you want to go back to the old row formatting-->
-			<!-- SPECIFICALLY USE IMAGES ALL W THE SAME ASPECT RATIO!! -->
-			<ul class="work-list">
-				<li class="work">
-					<img src="images/blizzlogo.png">	
-					<div class="layer">
-						<h3><b>Engineer<br>Unannounced Survival Game</b></h3>
-						<p>Implemented editor tools with C++ and ImGui, added debugging features to improve performance, wrote unit tests, and used a custom game engine to create an in-game menu for players to view character details.</p>
-						<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
-					</div>				
-				</li>
-				<li class="work">
-					<img src="images/climatecapital.png">	
-					<div class="layer">
-						<h3><b>Summer Associate<br>Climate & Capital Media</b></h3>
-						<p>Designed and edited weekly newsletters for 2000+ subscribers, improved Instagram engagements by 106% through managing media for two company partnerships, and created reusable templates for social media.</p>
-						<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
-					</div>					
-				</li>
-			</ul>
-			<ul class="work-list-last">
-				<li class="work">
-					<img src="images/jhuapl.png">	
-					<div class="layer">
-						<h3><b>Intern<br>Johns Hopkins Applied Physics Laboratory</b></h3>
-						<p>Created a user interface for to manipulate a robotic arm with MATLAB, 3D modeled and designed custom appendages for the arm, and documented clear research for future project.</p>
-						<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
-					</div>					
-				</li>
-			</ul>
-			<!--<a href="#" class="button">See More</a>-->
-		</div>
-	</section>
-	<!--projects section-->
-	<section id="projects">
-		<div class="container">
-			<div class = "title">
-				<h2>Projects</h2>
+			<div class="header-text">
+				<h1>Golpari Abari</h1>
+				<p>A software engineer & game developer<br>that loves people, living, and having fun.</p>
 			</div>
-			<!--change this class to 'work-list' if you want to go back to the old row formatting-->
-			<!-- SPECIFICALLY USE IMAGES ALL W THE SAME ASPECT RATIO!! -->
-			<ul class="image-gallery">
-				<li class="work">
-					<img src="images/zelda.jpg">	
-					<div class="layer">
-						<h3><b>The Legend of Zelda - Case Study</b></h3>
-						<p>A recreation of the first dungeon<br>in the NES TLOZ.<br><br><b>Unity, C++</b></p>
-						<a href="https://golpari.itch.io/p1-zelda-webbuild"><i class="fas fa-external-link-alt circleHighlight"></i></a>
-					</div>					
-				</li>
-				<li class="work">
-					<img src="images/dungeondash.png">	
-					<div class="layer">
-						<h3><b>Dungeon Dash</b></h3>
-						<p>2-Player game, focusing on a <br>ghost and thief with opposing objectives.<br><br><b>Unity, C++</b></p>
-						<a href="https://github.com/golpari/p3-tag"><i class="fas fa-external-link-alt circleHighlight"></i></a>
-					</div>					
-				</li>
-				<li class="work">
-					<img src="images/switchswatch2.PNG">	
-					<div class="layer">
-						<h3><b>Switch Swatch</b></h3>
-						<p>Play through a set of puzzles by manipulating the colors around you.<br><br><b>Unity, C++</b></p>
-						<a href="https://github.com/golpari/p2-minigame"><i class="fas fa-external-link-alt circleHighlight"></i></a>
-					</div>				
-				</li>
-				<li class="work">
-					<img src="images/rollaball.PNG">	
-					<div class="layer">
-						<h3><b>Roll-A-Ball</b></h3>
-						<p>A quick unity study.<br><br><b>Unity, C++</b></p>
-						<a href="https://golpari.itch.io/roll-a-ball"><i class="fas fa-external-link-alt circleHighlight"></i></a>
-					</div>				
-				</li>
-				<li class="work">
-					<img src="images/flappybird.jpg">	
-					<div class="layer">
-						<h3><b>Flappy Bird</b></h3>
-						<p>A recreation of Flappy Bird with a generated random map.<br><br><b>Unity, C++</b></p>
-						<a href="https://golpari.itch.io/flappybird"><i class="fas fa-external-link-alt circleHighlight"></i></a>
-					</div>					
-				</li>
-				<li class="work">
-					<img src="images/groovesLogo.jpeg">	
-					<div class="layer">
-						<h3><b>Grooves</b></h3>
-						<p>A mobile app to browse the music gigs in Ann Arbor.<br><br><b>Flutter, Dart, Firebase</b></p>
-						<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
-					</div>					
-				</li>
-			</ul>
-			<!--<a href="#" class="button">See More</a>-->
 		</div>
-	</section>
-  	<!-- artwork portfolio Section (can be used as any general portfolio) -->
-  	<section id = "portfolio">
-		<div class = "container">
-			<div class = "portfolio-content">
-				<div class = "title">
-					<h2>Artwork</h2>
+	</div>
+
+
+	<!--main content section-->
+	<main>
+		<!--work section-->
+		<section id="work">
+			<div class="container">
+				<div class="title">
+					<h2>Work</h2>
 				</div>
-
-				<ul class = "image-gallery">
-					<li><img onclick="this.requestFullscreen()" src = "images/sitting-figures.jpg"></li>
-					<li><img onclick="this.requestFullscreen()" src = "images/red-spiky.jpg"></li>
-					<li><img onclick="this.requestFullscreen()" src = "images/blue-bulb.jpg"></li>
-					<li><img onclick="this.requestFullscreen()" src = "images/wedding-cups.jpg"></li>
-					<li><a href="artwork.html" class="button">See All</a></li>
-                </ul>
-				
-			</div>
-		</div>
-	</section>
-
-	<!-- about section -->
-	<hr>
-	<section id = "about" class = "about">
-		<div class = "container">
-			<div class = "about-content grid">
-				<div class = "about-left">
-					<img src = "images/parispfp.jpg" alt = "">
-				</div>
-				<div class = "about-right">
-					<div class = "title">
-						<h2>About Me</h2>
-					</div>
-					<p class = "lead">Hi! I'm Golpari (Gol for short). I'm currently a Senior at the University of Michigan studying Computer Science, with a minor in Art & Design. I love playing games, and I love making them too. Some of my favorites are Gris, Slime Rancher, and Ori & the Will of the Wisps. </p>
-					<p class = "lead">My hobbies include rugby, ceramics, reading, cooking, and painting. I love to learn new things every day.</p>
-					<p class="lead">Tell me about something you love!</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- contact section -->
-	<hr>
-	<section id = "contact">
-		<div class="container">
-			<div class = "title">
-				<h2>Contact</h2>
-			</div>
-			<div class="contact-info">
-				<p class = "lead"><a href="mailto:golpari.tfa@gmail.com">golpari.tfa@gmail.com</a></p>
-				<ul class="navIcons" id="sidemenuIcons">
-					<li><a href="https://github.com/golpari" target="_blank"><i class="fa-brands fa-github circleHighlight"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i class="fa-brands fa-linkedin circleHighlight"></i></a></li>
-					<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a></li>
+				<!--change this class to 'work-list' if you want to go back to the old row formatting-->
+				<!-- SPECIFICALLY USE IMAGES ALL W THE SAME ASPECT RATIO!! -->
+				<ul class="work-list">
+					<li class="work">
+						<img src="images/blizzlogo.png">
+						<div class="layer">
+							<h3><b>Engineer<br>Unannounced Survival Game</b></h3>
+							<p>Implemented editor tools with C++ and ImGui, added debugging features to improve
+								performance, wrote unit tests, and used a custom game engine to create an in-game menu
+								for players to view character details.</p>
+							<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
+						</div>
+					</li>
+					<li class="work">
+						<img src="images/climatecapital.png">
+						<div class="layer">
+							<h3><b>Summer Associate<br>Climate & Capital Media</b></h3>
+							<p>Designed and edited weekly newsletters for 2000+ subscribers, improved Instagram
+								engagements by 106% through managing media for two company partnerships, and created
+								reusable templates for social media.</p>
+							<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
+						</div>
+					</li>
 				</ul>
+				<ul class="work-list-last">
+					<li class="work">
+						<img src="images/jhuapl.png">
+						<div class="layer">
+							<h3><b>Intern<br>Johns Hopkins Applied Physics Laboratory</b></h3>
+							<p>Created a user interface for to manipulate a robotic arm with MATLAB, 3D modeled and
+								designed custom appendages for the arm, and documented clear research for future
+								project.</p>
+							<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
+						</div>
+					</li>
+				</ul>
+				<!--<a href="#" class="button">See More</a>-->
 			</div>
-		</div>
-	</section>
-</main>
+		</section>
+		<!--projects section-->
+		<section id="projects">
+			<div class="container">
+				<div class="title">
+					<h2>Projects</h2>
+				</div>
+				<!--change this class to 'work-list' if you want to go back to the old row formatting-->
+				<!-- SPECIFICALLY USE IMAGES ALL W THE SAME ASPECT RATIO!! -->
+				<ul class="image-gallery">
+					<li class="work">
+						<img src="images/zelda.jpg">
+						<div class="layer">
+							<h3><b>The Legend of Zelda - Case Study</b></h3>
+							<p>A recreation of the first dungeon<br>in the NES TLOZ.<br><br><b>Unity, C++</b></p>
+							<a href="https://golpari.itch.io/p1-zelda-webbuild"><i
+									class="fas fa-external-link-alt circleHighlight"></i></a>
+						</div>
+					</li>
+					<li class="work">
+						<img src="images/dungeondash.png">
+						<div class="layer">
+							<h3><b>Dungeon Dash</b></h3>
+							<p>2-Player game, focusing on a <br>ghost and thief with opposing
+								objectives.<br><br><b>Unity, C++</b></p>
+							<a href="https://github.com/golpari/p3-tag"><i
+									class="fas fa-external-link-alt circleHighlight"></i></a>
+						</div>
+					</li>
+					<li class="work">
+						<img src="images/switchswatch2.PNG">
+						<div class="layer">
+							<h3><b>Switch Swatch</b></h3>
+							<p>Play through a set of puzzles by manipulating the colors around you.<br><br><b>Unity,
+									C++</b></p>
+							<a href="https://github.com/golpari/p2-minigame"><i
+									class="fas fa-external-link-alt circleHighlight"></i></a>
+						</div>
+					</li>
+					<li class="work">
+						<img src="images/rollaball.PNG">
+						<div class="layer">
+							<h3><b>Roll-A-Ball</b></h3>
+							<p>A quick unity study.<br><br><b>Unity, C++</b></p>
+							<a href="https://golpari.itch.io/roll-a-ball"><i
+									class="fas fa-external-link-alt circleHighlight"></i></a>
+						</div>
+					</li>
+					<li class="work">
+						<img src="images/flappybird.jpg">
+						<div class="layer">
+							<h3><b>Flappy Bird</b></h3>
+							<p>A recreation of Flappy Bird with a generated random map.<br><br><b>Unity, C++</b></p>
+							<a href="https://golpari.itch.io/flappybird"><i
+									class="fas fa-external-link-alt circleHighlight"></i></a>
+						</div>
+					</li>
+					<li class="work">
+						<img src="images/groovesLogo.jpeg">
+						<div class="layer">
+							<h3><b>Grooves</b></h3>
+							<p>A mobile app to browse the music gigs in Ann Arbor.<br><br><b>Flutter, Dart, Firebase</b>
+							</p>
+							<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
+						</div>
+					</li>
+				</ul>
+				<!--<a href="#" class="button">See More</a>-->
+			</div>
+		</section>
+		<!-- artwork portfolio Section (can be used as any general portfolio) -->
+		<section id="portfolio">
+			<div class="container">
+				<div class="portfolio-content">
+					<div class="title">
+						<h2>Artwork</h2>
+					</div>
+
+					<ul class="image-gallery">
+						<li><img onclick="this.requestFullscreen()" src="images/sitting-figures.jpg"></li>
+						<li><img onclick="this.requestFullscreen()" src="images/red-spiky.jpg"></li>
+						<li><img onclick="this.requestFullscreen()" src="images/blue-bulb.jpg"></li>
+						<li><img onclick="this.requestFullscreen()" src="images/wedding-cups.jpg"></li>
+						<li><a href="artwork.html" class="button">See All</a></li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- about section -->
+		<hr>
+		<section id="about" class="about">
+			<div class="container">
+				<div class="about-content grid">
+					<div class="about-left">
+						<img src="images/parispfp.jpg" alt="">
+					</div>
+					<div class="about-right">
+						<div class="title">
+							<h2>About Me</h2>
+						</div>
+						<p class="lead">Hi! I'm Golpari (Gol for short). I'm currently a Senior at the University of
+							Michigan studying Computer Science, with a minor in Art & Design. I love playing games, and
+							I love making them too. Some of my favorites are Gris, Slime Rancher, and Ori & the Will of
+							the Wisps. </p>
+						<p class="lead">My hobbies include rugby, ceramics, reading, cooking, and painting. I love to
+							learn new things every day.</p>
+						<p class="lead">Tell me about something you love!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact section -->
+		<hr>
+		<section id="contact">
+			<div class="container">
+				<div class="title">
+					<h2>Contact</h2>
+				</div>
+				<div class="contact-info">
+					<p class="lead"><a href="mailto:golpari.tfa@gmail.com">golpari.tfa@gmail.com</a></p>
+					<ul class="navIcons" id="sidemenuIcons">
+						<li><a href="https://github.com/golpari" target="_blank"><i
+									class="fa-brands fa-github circleHighlight"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i
+									class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+						<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
+
 </html>

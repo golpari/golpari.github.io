@@ -1,49 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  body {
+    margin: 0;
+    background-color: #2e3537;
+    height: 3500px;
+  }
+
+  #filler {
+    height: 100vh;
+    width: 100%;
+    display: none;
+  }
+
+  #container {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+
+  #container div {
+    position: absolute;
+    height: 550px;
+    width: 380px;
+    left: 20%;
+    margin-top: 3em;
+    border-radius: 25px;
+    box-shadow: 0 0 3px black;
+  }
+
+  #container div img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+
+  #one {
+    z-index: 3;
+    transform: translate3d(0px, 0px, 0px) rotate(-3deg);
+  }
+
+  #two {
+    z-index: 2;
+    transform: translate3d(-1px, -1px, 0px) rotate(5deg);
+  }
+
+  #three {
+    z-index: 1;
+    transform: translate3d(0px, 0px, 0px) rotate(-15deg);
+  }
+</style>
+
 <head>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="test1script.js"></script>
-    <link rel="stylesheet" href="test1styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-
-<div class="all-content">
-  
-    <div class="other-content">
-      <h1>Here's other content</h1>
-      <h3>This might be some cool text</h3>
-      <p>Austin fixie banh mi hell of yr sustainable taxidermy fashion axe man braid. Art party sustainable prism synth. Authentic ugh migas yuccie tofu tote bag. Bicycle rights vinyl mlkshk ugh single-origin coffee williamsburg vaporware paleo put a bird on it. Ramps fixie paleo jianbing brunch coloring book intelligentsia blue bottle fashion axe cronut hammock food truck seitan man bun. Humblebrag mumblecore try-hard, irony man bun iPhone mlkshk craft beer. Retro cloud bread 8-bit authentic selvage bitters af ethical tumeric.
-  
-        Lo-fi meggings sustainable 8-bit. Prism snackwave portland fanny pack. Blue bottle hashtag hammock man bun, tbh paleo XOXO activated charcoal celiac viral narwhal shaman portland crucifix. Meggings narwhal shaman YOLO disrupt, iceland gentrify mlkshk fam banh mi keytar bitters kale chips paleo pickled.
-  
-        Chillwave selfies bushwick, tacos chartreuse iceland synth +1 swag roof party occupy. Freegan meditation normcore, bushwick kinfolk church-key microdosing cliche lo-fi vexillologist cold-pressed hell of. Green juice humblebrag snackwave godard selvage. Literally pinterest vegan cold-pressed roof party street art master cleanse chicharrones viral leggings jean shorts wayfarers pork belly ethical. Raclette austin meditation try-hard blog bushwick etsy yuccie ugh asymmetrical leggings.</p>
-    </div>
-  
-    <div class="main-wrapper">
-  
-      <div class="main-wrapper__panel-wrapper">
-  
-        <div class="main-wrapper__panel" style="background-image: url('https://dummyimage.com/1920x1080/f1f1f1/454545.png&text=A')"></div>
-  
-        <div class="main-wrapper__panel" style="background-image: url('https://dummyimage.com/1920x1080/27aa67/ffffff.png&text=B')"></div>
-  
-        <div class="main-wrapper__panel" style="background-image: url('https://dummyimage.com/1920x1080/f08e29/ffffff.png&text=C')"></div>
-  
-        <div class="main-wrapper__panel" style="background-image: url('https://dummyimage.com/1920x1080/32c4e4/ffffff.png&text=D')"></div>
-  
-        <div class="main-wrapper__panel" style="background-image: url('https://dummyimage.com/1920x1080/e031de/ffffff.png&text=E')"></div>
-  
-      </div>
-  
-    </div>
-  
-    <div class="other-content">
-      <h1>Here's other content</h1>
-      <h3>This might be some cool text</h3>
-      <p>Austin fixie banh mi hell of yr sustainable taxidermy fashion axe man braid. Art party sustainable prism synth. Authentic ugh migas yuccie tofu tote bag. Bicycle rights vinyl mlkshk ugh single-origin coffee williamsburg vaporware paleo put a bird on it. Ramps fixie paleo jianbing brunch coloring book intelligentsia blue bottle fashion axe cronut hammock food truck seitan man bun. Humblebrag mumblecore try-hard, irony man bun iPhone mlkshk craft beer. Retro cloud bread 8-bit authentic selvage bitters af ethical tumeric.
-  
-        Lo-fi meggings sustainable 8-bit. Prism snackwave portland fanny pack. Blue bottle hashtag hammock man bun, tbh paleo XOXO activated charcoal celiac viral narwhal shaman portland crucifix. Meggings narwhal shaman YOLO disrupt, iceland gentrify mlkshk fam banh mi keytar bitters kale chips paleo pickled.
-  
-        Chillwave selfies bushwick, tacos chartreuse iceland synth +1 swag roof party occupy. Freegan meditation normcore, bushwick kinfolk church-key microdosing cliche lo-fi vexillologist cold-pressed hell of. Green juice humblebrag snackwave godard selvage. Literally pinterest vegan cold-pressed roof party street art master cleanse chicharrones viral leggings jean shorts wayfarers pork belly ethical. Raclette austin meditation try-hard blog bushwick etsy yuccie ugh asymmetrical leggings.</p>
-    </div>
-    
+<body>
+  <div id="filler"></div>
+  <div id="container">
+    <div id="one"><img src="testimages/foreground.png"></div>
+    <div id="two"><img src="testimages/foreground.png"></div>
+    <div id="three"><img src="testimages/foreground.png"></div>
   </div>
+  <div>
+    <div>
+      jlajkfsjlakjs
+    </div>
+    <div>
+      jlajkfsjlakjs
+    </div>
+    <div>
+      jlajkfsjlakjs
+    </div><div>
+      jlajkfsjlakjs
+    </div>
+  </div>
+</body>
+<script>
+  window.addEventListener('scroll', function () {
+    let num = window.scrollY / window.innerHeight;
+    let x = 0;
+
+    document.getElementById('filler').style.display = 'none';
+
+    if (num <= 1) {
+      document.getElementById('one').style.opacity = 1 - num;
+      x = (1 - num) * 2;
+      document.getElementById('one').style.transform = 'translate3d(' + x + '%, ' + x + '%, 0px) scale(1,1) rotate(-3deg)';
+    } else if (num > 1 && num <= 2) {
+      document.getElementById('two').style.opacity = 2 - num;
+      x = (2 - num) * 2;
+      document.getElementById('two').style.transform = 'translate3d(' + x + '%, -' + x + '%, 0px) scale(1,1) rotate(5deg)';
+    } else if (num > 2 && num <= 3) {
+      document.getElementById('three').style.opacity = 3 - num;
+      x = (3 - num) * 2;
+      document.getElementById('three').style.transform = 'translate3d(' + x + '%, 0px, 0px) scale(1,1) rotate(-15deg)';
+    } else {
+      document.getElementById('filler').style.display = 'block';
+    }
+  });
+</script>
+
+
+</html>

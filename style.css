@@ -31,7 +31,7 @@ p, h3{
 }
 
 body{
-    background: var(--base-color);
+    background: linear-gradient(var(--base-color), 90%, var(--secondary-base));
     color: var(--light-color);
 
 }
@@ -48,7 +48,7 @@ main{
     font-size: 1.6rem;
     line-height: 1.2;
     width: 100%;
-    z-index: 1; /*to keep the navbar on top of Artwork header text*/
+    z-index: 10; /*to keep the navbar on top of Artwork header text*/
     position: sticky; /*to stick navbar at top of screen*/
     top: 0;
 }
@@ -170,23 +170,57 @@ nav {
     height: 100vh;
     justify-content: center;
     align-items: center;
-  }
+}
 
-#header{
+#header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/leaves-standin.jpg);
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    display: inline-block;
 }
-.header-text{
+
+#parallax-one {
+    background-image: url('images/leaves-standin.jpg');
+    z-index: 1;
+}
+
+#parallax-two {
+    background-image: url('testimages/foreground.png');
+    z-index: 2;
+}
+
+#parallax-three {
+    background-image: url('testimages/foreground.png');
+    z-index: 3;
+}
+
+.header-text {
     margin-top: 45vh;
     font-size: 30px;
     text-align: left;
     padding-left: 15%;
+    position: relative;
+    z-index: 4;
 }
-.header-text h1{
+
+.header-text h1 {
     font-size: 80px;
     margin-bottom: 0;
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/969/398/small/gradients-green-yellow-colors-abstract-background-vector.jpg);
@@ -195,6 +229,7 @@ nav {
     -webkit-background-clip: text;
 }
 
+
 /*row portfolio style*/
 .container{
     padding: 10px 5%;
@@ -202,7 +237,7 @@ nav {
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 5%;
     margin-bottom: 40px;
 }
 
@@ -218,6 +253,7 @@ nav {
     overflow: hidden;
     max-width: 50vw;
 
+    box-shadow: 10px 10px 3px rgba(100, 100, 100, 0.3);
 }
 
 .work img{
@@ -225,14 +261,14 @@ nav {
     width: 100%;
     /*border-radius: 10px;*/ /*for rounded edges*/
     display: block;
-
     transition: transform 0.5s; /*zoom img*/
+    
 }
 
 .layer{
     width: 100%;
     height: 0; /*would be 100% if you wanted to just always show the top layer*/
-    background: linear-gradient(var(--dark-accent), 20%, rgb(0,0,0, 1));
+    background: linear-gradient( rgb(0,0,0, 0.9), 92%, var(--dark-accent));
     /*border-radius: 10px;*/ /*for rounded edges*/
 
     position: absolute;
