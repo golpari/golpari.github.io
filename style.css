@@ -31,7 +31,7 @@ p, h3{
 }
 
 body{
-    background: linear-gradient(var(--base-color), 90%, var(--secondary-base));
+    background: linear-gradient(var(--base-color), 40%, #152b19);
     color: var(--light-color);
 
 }
@@ -197,17 +197,17 @@ nav {
 }
 
 #parallax-one {
-    background-image: url('images/leaves-standin.jpg');
+    background-image: url('images/headerImage/back-seaweed.png');
     z-index: 1;
 }
 
 #parallax-two {
-    background-image: url('testimages/foreground.png');
+    background-image: url('images/headerImage/fish-01.png');
     z-index: 2;
 }
 
 #parallax-three {
-    background-image: url('testimages/foreground.png');
+    background-image: url('images/headerImage/front-seaweed.png');
     z-index: 3;
 }
 
@@ -223,7 +223,7 @@ nav {
 .header-text h1 {
     font-size: 80px;
     margin-bottom: 0;
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/969/398/small/gradients-green-yellow-colors-abstract-background-vector.jpg);
+    background-image: url('images/headerImage/textGradient.png');
     background-attachment: fixed;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -455,12 +455,20 @@ h1, h2, h3{
 }
 
 /*contact style*/
+#contact .title {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 #contact .title h2{
     font-size: 45px;
 }
 
 #contact .contact-info{
     padding: 10px 2%;
+    padding-top: 0;
 }
 
 #contact .navIcons {
@@ -535,7 +543,7 @@ nav .menu{
 @media only screen and (max-width: 1000px)
 {
     #header{
-        background-image: url(images/leaves-standin.jpg); /* CHANGE THIS*/   
+           
     }
     .header-text{
         font-size: 16px;
