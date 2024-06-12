@@ -472,9 +472,20 @@ h1, h2, h3{
 #contact .navIcons {
     margin-left: 0px;
 }
+
+#contact #signature-tag {
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 #contact p{
     font-size: 20px;
     padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 #contact .navIcons li{
