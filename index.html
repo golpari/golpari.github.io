@@ -55,13 +55,14 @@
 	</script>
 
 	<!--script to move the header text's background image around-->
+<!--
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
 			const h1 = document.querySelector(".header-text h1");
 			let angle = 0;
 			const radius = 30; // Change this value to increase or decrease the circular motion radius
 			const speed = 0.003; // Change this value to increase or decrease the speed of the motion
-
+	
 			function animate() {
 				angle += speed;
 				const x = Math.cos(angle) * radius;
@@ -69,10 +70,11 @@
 				h1.style.backgroundPosition = `${x}% ${y}%`;
 				requestAnimationFrame(animate);
 			}
-
+	
 			animate();
 		});
 	</script>
+-->
 
 	<!--script for parallax scrolling on the header area-->
 	<script>
@@ -135,7 +137,7 @@
 						</div>
 					</li>
 				</ul>
-				<ul class="work-list-last">
+				<ul class="work-list">
 					<li class="work">
 						<img src="images/jhuapl.png">
 						<div class="layer">
@@ -145,6 +147,9 @@
 								project.</p>
 							<a href="#"><!-- <i class="fas fa-external-link-alt circleHighlight"></i> --></a>
 						</div>
+					</li>
+					<li class="work-empty">
+						
 					</li>
 				</ul>
 				<!--<a href="#" class="button">See More</a>-->
