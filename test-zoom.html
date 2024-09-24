@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Zoom on Scroll Testing</title>
+    <link href="test-zoom.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Image container with fixed positioning -->
+    <div id="image-container">
+        <img alt="Seaweed" src="images/headerImage/back-seaweed.png" />
+    </div>
+
+    <!-- Main content stacked behind the image -->
+    <div id="content">
+        <p>Now we reach our content on the next portion of the viewport.</p>
+        <p>Here is some more content to test scrolling behavior. Continue scrolling to reveal more content.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et orci nec nisl dictum tincidunt.</p>
+        <p>Additional content section to ensure scrolling works smoothly after the image becomes invisible.</p>
+    </div>
+
+    <script src="test-zoom.js"></script>
+</body>
+
+</html>
