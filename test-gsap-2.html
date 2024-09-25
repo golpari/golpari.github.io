@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<script src="https://kit.fontawesome.com/f30a622632.js" crossorigin="anonymous"></script>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golpari Abari</title>
+    <link rel="stylesheet" href="test-gsap-style.css">
+    <link rel="stylesheet" href="artwork-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Salsa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--LINK GSAP AND GSAP PLUGINS WITH A CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <!--Title Page Section-->
+    <div class="container">
+        <img id='img-1' src='images/headerImage/back-seaweed.png' alt="">
+        <img id='img-2' src='images/headerImage/front-seaweed.png' alt="">
+        <img src='images/headerImage/fish-01.png' alt="">
+    </div>
+    <script>
+        // use a script tag or an external JS file
+        // Apply GSAP animation to all images within the container
+        document.addEventListener("DOMContentLoaded", (event) => {
+            gsap.registerPlugin(ScrollTrigger)
+            // gsap code here!
+            // Create a master timeline to control the sequence of animations
+            const tl = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.container',
+                    start: 'top top',
+                    end: '+=100%', // Adjust based on the required animation length
+                    pin: true,
+                    scrub: true,
+                    // markers: true, // Uncomment for debugging markers
+                }
+            });
+
+            // First animation: img-1 zooms in
+            tl.to('#img-2', {
+                scale: 1.5,
+                ease: "none",
+                duration: 3
+            });
+
+            // Second animation: img-2 zooms in after img-1
+            tl.to('#img-1', {
+                scale: 1.5,
+                ease: "none",
+                duration: 3
+            });
+        });
+    </script>
+    <main>
+    </main>
+
+</body>
+
+</html>
