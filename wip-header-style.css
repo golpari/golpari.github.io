@@ -89,5 +89,7 @@ img {
     background-image: url('images/headerImage/textGradient.png');
     background-attachment: fixed;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the image covers the entire text */
 }
