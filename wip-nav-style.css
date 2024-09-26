@@ -1,0 +1,121 @@
+/*navbar styling*/
+.navAndLogo {
+    /*from portfolio styling*/
+    font-size: 1.6rem;
+    line-height: 1.2;
+    width: 100%;
+    z-index: 10; /*to keep the navbar on top of Artwork header text*/
+    position: sticky; /*to stick navbar at top of screen*/
+    top: 0;
+}
+
+.navContainer {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(var(--base-color) 30%, 80%, rgba(0,0,0,0)); /*matches base page color so that it blends with background*/
+    display: inline;
+    padding-right: 20px; /*how far the navItems go to the right edge of the screen*/
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2%; /*control height from top of screen*/
+}
+
+#navItems{
+    display: flex;
+}
+
+.spacer {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logo {
+    width: 140px;
+    position: fixed;
+    z-index: 2;
+    margin-top: 2%; /*control height from top of screen*/
+}
+
+.logo img{
+    height: 140px;
+    width: 140px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.navLinks {
+    flex-shrink: 0;
+    margin-left: 16px;
+}
+
+.navLinks li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px; 
+    position: relative;
+}
+
+.navLinks li a{
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navLinks li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: var(--dark-color);
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.navLinks li a:hover::after{
+    width: 100%;
+}
+
+.navIcons {
+    flex-shrink: 0;
+    margin-left: 32px;
+}
+
+.navIcons li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px; 
+    position: relative;
+}
+
+.navIcons li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.circleHighlight{
+    color: var(--light-color);
+    z-index: 1;
+
+    background: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: var(--light-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+
+    &:hover{
+        background: var(--dark-color);
+    }
+}

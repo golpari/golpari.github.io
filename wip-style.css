@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: flex-start; /* Align items to the top */
     justify-content: center;
-    background: linear-gradient(var(--base-color), 40%, #152b19);
+    background: linear-gradient(var(--base-color), 50%, #152b19);
     color: var(--light-color);
 }
 

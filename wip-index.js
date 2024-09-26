@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             end: "+=" + window.innerHeight, // Adjust based on the required animation length
             pin: true,
             scrub: true,
-            markers: true, // Uncomment for debugging markers
+           // markers: true, // Uncomment for debugging markers
         },
     });
 
