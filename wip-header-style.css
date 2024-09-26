@@ -42,3 +42,34 @@ img {
     background-position: center; /* Center the background image */
     background-size: cover; /* Ensure the image covers the entire text */
 }
+
+.subtitles li {
+	list-style: none;
+}
+  
+  /* Make the first list item visible 
+  .subtitles:first-child {
+    opacity: 1;
+  }*/
+
+  .header-text .button{
+    opacity: 0; /* This will be changed with GSAP animation */
+    display: block;
+    position: absolute; /* Position the button absolutely within the header-text */
+    top: 50%; /* Position it at the vertical center */
+    transform: translateY(-50%); /* Adjust to perfectly center vertically */
+    margin: 0;
+    width: fit-content;
+    outline: 2px solid var(--dark-color);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--dark-color);
+    background-color: var(--base-color);
+    transition: background-color 0.5s;
+}
+
+.header-text .button:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}

@@ -48,3 +48,26 @@ body {
     background: linear-gradient(var(--base-color), 40%, #152b19);
     color: var(--light-color);
 }
+
+.button{
+    display: block;
+    margin: auto auto;
+    margin-bottom: 0;
+    width: fit-content;
+    outline: 2px solid var(--dark-color);
+    padding: 14px 50px;
+    border-radius: 6px;
+
+    text-decoration: none;
+    color: var(--dark-color);
+    background-color: var(--base-color);
+
+    align-items:end;
+
+    transition: background-color 0.5s;
+}
+
+.button:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
