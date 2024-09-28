@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // Create a master timeline to control the sequence of animations
     const tl = gsap.timeline({
         scrollTrigger: {
-            trigger: '.container',
+            trigger: '.hcontainer',
             start: 'top top',
-            end: "+=" + window.innerHeight, // Adjust based on the required animation length
+            end: "+=200%", // Adjust based on the required animation length
             pin: true,
             scrub: true,
-           // markers: true, // Uncomment for debugging markers
+            markers: true, // Uncomment for debugging markers
         },
     });
 

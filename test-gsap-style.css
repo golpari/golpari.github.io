@@ -3,7 +3,7 @@
 body {
     height: 300vh;
     margin: 0;
-    display: flex;
+    display: block;
     align-items: flex-start; /* Align items to the top */
     justify-content: center;
 }

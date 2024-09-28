@@ -1,14 +1,14 @@
 /*Zoom Image Styling*/
-.container {
+
+.hcontainer {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
-img {
+#header img {
     position: absolute;
-    top: 0;
-    /* Ensure images start from the top */
+    top: 0; /* Ensure images start from the top */
     left: 0;
     width: 100%;
     height: 100%;

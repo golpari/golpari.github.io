@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="wip-header-style.css">
     <link rel="stylesheet" href="wip-nav-style.css">
     <link rel="stylesheet" href="artwork-style.css">
+
+    <link rel="stylesheet" href="wip-excess-style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Salsa&display=swap" rel="stylesheet">
@@ -25,64 +28,66 @@
     <!--<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>-->
 
     <!--NavBar Section-->
-	<div class="navAndLogo">
-		<a href="#header" class="logo"><img src="images/initials-square.png"></a>
-		<div class="navContainer">
-			<nav>
-				<div class="spacer"></div>
-				<div id="navItems">
-					<ul class="navLinks" id="sidemenu">
-						<li><a href="#work">Work</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#portfolio">Art</a></li>
-						<li><a href="#about">About</a></li>
-					</ul>
-					<ul class="navIcons" id="sidemenuIcons">
-						<li><a href="https://github.com/golpari" target="_blank"><i
-									class="fa-brands fa-github circleHighlight"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i
-									class="fa-brands fa-linkedin circleHighlight"></i></a></li>
-						<li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a>
-						</li>
-						<i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
-					</ul>
-				</div>
-				<i class="fas fa-bars menu circleHighlight" onclick="openMenu()"></i>
-			</nav>
-		</div>
-	</div>
-
-	<script>
-		function openMenu() {
-			document.getElementById("navItems").style.right = "0";
-		}
-
-		function closeMenu() {
-			document.getElementById("navItems").style.right = "-200px";
-		}
-	</script>
-
-    <!--Title Page Section-->
-    <div id="header">
-        <div class="container">
-            <img id='img-1' src='images/headerImage/back-seaweed.png' alt="">
-            <img id='img-2' src='images/headerImage/front-seaweed.png' alt="">
-            <img src='images/headerImage/fish-01.png' alt="">
-            <div class="header-text">
-                <h1>Golpari Abari</h1>
-                <div class="subtitles">
-                    <p class="subtitle">UI Engineer</p>
-                    <a href="#work" class="button">Learn More    <i class="fa-solid fa-arrow-down"></i></a>
+    <div class="navAndLogo">
+        <a href="#header" class="logo"><img src="images/initials-square.png"></a>
+        <div class="navContainer">
+            <nav>
+                <div class="spacer"></div>
+                <div id="navItems">
+                    <ul class="navLinks" id="sidemenu">
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#portfolio">Art</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                    <ul class="navIcons" id="sidemenuIcons">
+                        <li><a href="https://github.com/golpari" target="_blank"><i
+                                    class="fa-brands fa-github circleHighlight"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/golpari/" target="_blank"><i
+                                    class="fa-brands fa-linkedin circleHighlight"></i></a></li>
+                        <li><a href="mailto:golpari.tfa@gmail.com"><i class="fas fa-envelope circleHighlight"></i></a>
+                        </li>
+                        <i class="fas fa-times menu circleHighlight" onclick="closeMenu()"></i>
+                    </ul>
                 </div>
-                <p class="mobile-only">Mobile support coming soon!</p>
-            </div>
+                <i class="fas fa-bars menu circleHighlight" onclick="openMenu()"></i>
+            </nav>
         </div>
-        <script src="wip-index.js"></script> <!--script for gsap scrolling with header images-->
     </div>
 
+    <script>
+        function openMenu() {
+            document.getElementById("navItems").style.right = "0";
+        }
+
+        function closeMenu() {
+            document.getElementById("navItems").style.right = "-200px";
+        }
+    </script>
+
+    <!--Title Page Section-->
+    <div class="hcontainer" id="header">
+        <img id='img-1' src='images/headerImage/back-seaweed.png' alt="">
+        <img id='img-2' src='images/headerImage/front-seaweed.png' alt="">
+        <img src='images/headerImage/fish-01.png' alt="">
+        <div class="header-text">
+            <h1>Golpari Abari</h1>
+            <div class="subtitles">
+                <p class="subtitle">UI Engineer</p>
+                <a href="#work" class="button">Learn More <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+            <p class="mobile-only">Mobile support coming soon!</p>
+        </div>
+    </div>
+    <script src="wip-index.js"></script> <!--script for gsap scrolling with header images-->
+
+    <div>test</div>
     <main>
+        <div>test2</div>
+
         <!--work section-->
         <section id="work">
+
 
         </section>
     </main>

@@ -42,7 +42,7 @@ main{
 }
 body {
     height: 300vh;
-    display: flex;
+    display: block;
     align-items: flex-start; /* Align items to the top */
     justify-content: center;
     background: linear-gradient(var(--base-color), 50%, #152b19);
