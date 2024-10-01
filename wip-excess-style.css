@@ -147,6 +147,7 @@ a{
     color: var(--dark-color);
     font-family: "Rosarivo", 'Times New Roman', Times, serif;
 }
+
 img{
     width: 100%;
     display: block;
@@ -195,6 +196,12 @@ h1, h2, h3{
 }
 .about p{
     font-size: 18px;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: left;
 }
 .about-left{
     margin-bottom: 4rem;
