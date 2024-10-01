@@ -11,7 +11,7 @@
     --gradient-color:
 }
 
-html, body {
+html {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     scroll-behavior: smooth;
     margin: 0;
@@ -39,12 +39,16 @@ main{
     /*from portfolio styling*/
     font-size: 1.2rem;
     line-height: 1.2;
+    width: 100%;
 }
 body {
     height: 300vh;
+    margin: 0;
     display: block;
     align-items: flex-start; /* Align items to the top */
     justify-content: center;
+    
+
     background: linear-gradient(var(--base-color), 50%, #152b19);
     color: var(--light-color);
 }
